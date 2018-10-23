@@ -14,10 +14,10 @@
     <div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6">
-				<img alt="Logo" src="C:\wamp64\www\IGHug\img\Logo_IGHug.png">
+				<img alt="Logo" src="img\Logo_IGHug.png">
 			</div>
 			<div class="col-md-6">
-				<form class="form-inline" style="">
+				<form class="form-inline">
 					<div class="Login">
 						<input type="email" class="form-control" placeholder="Identifiant">
 					</div>
