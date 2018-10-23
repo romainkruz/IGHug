@@ -14,6 +14,13 @@
     <link href="css/style.css" rel="stylesheet">
 
 </head>
+
+<header>
+
+    <?php include("header.php"); ?>
+
+</header>
+
 <body>
 
 <div class="container-fluid">
@@ -21,7 +28,7 @@
         <div class="col-md-12">
             <div class="page-header">
                 <h1>
-                    LayoutIt! <small>Interface Builder for Bootstrap</small>
+                    IGHub <small>Ceci est le HUB</small>
                 </h1>
             </div>
         </div>
