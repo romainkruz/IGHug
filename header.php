@@ -1,6 +1,9 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
+            <img src="img/Logo_IGHug.png">
+        </div>
+        <div class="col-md-6">
             <div class="page-header">
                 <h1>
                     IGHub <small>Ceci est le Header</small>
