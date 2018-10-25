@@ -29,7 +29,7 @@
         <div class="col-md-12">
             <div class="page-header">
                 <h1>
-                    IGHub <small>Ceci est le HUB</small>
+                    VVVVIGHub <small>Ceci est le HUB</small>
                 </h1>
             </div>
         </div>

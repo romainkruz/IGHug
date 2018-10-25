@@ -14,13 +14,12 @@ h2{
     font-style: italic;
 }
 
-#logo_header {
-    width: 100%;
+#Titre{
+    width: 12vw;
 }
 
-#barry_header {
-    margin-top: 1%;
-    width: 90%;
+#logo_header {
+    width: 8vw;
 }
 
 .icone_header img{
@@ -36,6 +35,6 @@ h2{
 }
 
 .zoom :hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(2);
+    transform: scale(2);
 }
