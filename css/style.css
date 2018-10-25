@@ -1,4 +1,41 @@
 header {
     background-color: #364246;
     color: white;
+    line-height: 6vw;
+}
+
+h1{
+    font-size: 4vw;
+    font-family: Calibri;
+}
+
+h2{
+    font-size: 1vw;
+    font-style: italic;
+}
+
+#logo_header {
+    width: 100%;
+}
+
+#barry_header {
+    margin-top: 1%;
+    width: 90%;
+}
+
+.icone_header img{
+    width: 2vw;
+    margin-left: 1vw;
+}
+
+.zoom img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom :hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
