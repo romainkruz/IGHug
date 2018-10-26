@@ -36,6 +36,11 @@
     </div>
 </div>
 
+<?php
+try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '');}
+catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
+?>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
