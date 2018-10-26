@@ -13,7 +13,6 @@
             <a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a>
             <a href="http://localhost/IGHug/Event.php"><img src="img/champagne-xxl.png"/></a>
             <a href="http://localhost/IGHug/Modify.php"><img src="img/contacts-xxl.png"/></a>
-            </div>
         </div>
     </div>
 </div>
