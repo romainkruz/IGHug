@@ -5,7 +5,7 @@
         </div>
         <div class="col-md-9 col-lg-9">
             <div class="page-header text-center">
-                <img src="img/Titre-170x70.png" id="Titre"/>
+                <img src="img/Titre-800x70.png" id="Titre"/>
             </div>
         </div>
         <div class="col-md-2 col-lg-2 zoom icone_header">
