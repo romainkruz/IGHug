@@ -39,54 +39,72 @@
 		</div>
 			<div class="row">
 				<div class="col-md-6">
-					<form role="form" class="form-inline" data-bitwarden-watching="1">
+					<form role="form" >
 						<div class="form-group"> 
-							<label for="exampleInputEmail1">
-								Email address
-							</label>
-							<input type="email" class="form-control" id="exampleInputEmail1">
+							<input type="nom" class="form-control" placeholder="Votre Nom">
 						</div>
 						<div class="form-group">
-							<label for="exampleInputPassword1">
-								Password
-							</label>
-							<input type="password" class="form-control" id="exampleInputPassword1">
+							<input type="prenom" class="form-control" placeholder="Votre Prénom">
 						</div>
 						<div class="form-group">		
-							<label for="exampleInputFile">
-							File input
-							</label>
-							<input type="file" class="form-control-file" id="exampleInputFile">
-							<p class="help-block">
-								Example block-level help text here.
-							</p>
+							<input type="age" class="form-control" placeholder="Votre Age">
 						</div>
-						<div class="checkbox">
-							<label>
-							<input type="checkbox"> Check me out
-							</label>
-						</div> 
-							<button type="submit" class="btn btn-primary">
-								Submit
-							</button>
+						<select class=form-control>
+							<option>Votre Sexe</option>
+							<option>Femme</option>
+							<option>Homme</option>
+						</select>
+						<br>
+						<select class=form-control>
+							<option>Votre école</option>
+							<option>IPI</option>
+							<option>ICD</option>
+							<option>ISCPA</option>
+						</select>
+						<br>		
+						<div class="Submit">
+							<a href="HUB.html">
+							<button type="Submit" class="btn btn-danger">S'inscrire</button>
+							</a>
+						</div>
 					</form>
 				</div>
 				<div class="col-md-6">
-					<img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
-				</div>
-				</div>
+					<form>
+						<img alt="Image d'accueil" src="img/image_accueil.jpg" class="img-fluid" alt="Responsive image">
+					</form>
+				</div>	
+			</div>
+<br>
+<br>
 				<div class="row">
-					<div class="col-md-6">
-						<blockquote class="blockquote">
-							<p class="mb-0">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-							</p>
-						</blockquote>
-					</div>
-					<div class="col-md-6">
-					</div>
-		</div>
-	</div>
+					<form class="form-inline">
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p class="mb-0">
+									"Grace à Ighug, j'ai pu allié ma passion du dév et de la drague"
+								</p>
+								<cite>- André Rémuzon, IPI</cite>
+							</blockquote>
+						</div>
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p class="mb-0">
+									"Les beurettes d'IGS n'ont plus eu de secrets pour moi, grace à cet outil"
+								</p>
+								<cite>- Romain Krumescouilles, IPI</cite>
+							</blockquote>
+						</div>
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p class="mb-0">
+									"Passionné depuis toujours par les buckets de poulet, ce site m'a sauvé la vie en me remettant sur le droit chemin des petites"
+								</p>
+								<cite>- Alexis Chatain, IPI</cite>
+							</blockquote>
+						</div>
+					</form>
+				</div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
