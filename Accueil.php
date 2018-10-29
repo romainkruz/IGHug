@@ -27,7 +27,7 @@
 						<input type="password" class="form-control" placeholder="Mot de passe">
 					</div>
 					<div class="Submit">
-						<a href="HUB.html">
+						<a href="http://localhost/IGHug/HUB.php">
 							<button type="Submit" class="btn btn-danger">Se connecter</button>
 						</a>
 					</div>
