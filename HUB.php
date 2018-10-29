@@ -26,17 +26,14 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-12">
-            <div class="page-header">
-                <h1>
-                    VVVVIGHub <small>Ceci est le HUB</small>
-                </h1>
-            </div>
+        <div class="col-lg-4 col-lg-4">
+
+        </div>
+        <div class="col-lg-8 col-lg-8" id="Members">
+            <?php include("view/ListMembers.php"); ?>
         </div>
     </div>
 </div>
-
-    <?php include("view/ListMembers.php"); ?>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
