@@ -26,10 +26,10 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-4 col-lg-4">
+        <div class="col-lg-6 col-lg-6">
 
         </div>
-        <div class="col-lg-8 col-lg-8" id="Members">
+        <div class="col-lg-6 col-lg-6">
             <?php include("view/ListMembers.php"); ?>
         </div>
     </div>
