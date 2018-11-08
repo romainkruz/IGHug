@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('../fonts/lobster_1.4-webfont.woff2') format('woff2'),
+    url('../fonts/lobster_1.4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     background-color: #364246;
     color: white;
@@ -5,13 +13,22 @@ header {
 }
 
 h1{
-    font-size: 4vw;
-    font-family: Calibri;
+    font-size: 3vw;
+    font-family: "lobster_1.4regular";
 }
 
 h2{
     font-size: 1vw;
     font-style: italic;
+}
+
+figure{
+    display: inline-block;
+}
+
+figcaption{
+    text-align: center;
+    font-family: "lobster_1.4regular";
 }
 
 #Titre{
@@ -23,9 +40,13 @@ h2{
 }
 
 #Members {
-    width: 10px;
-    height: 200px;
+    height: 30vw;
     overflow: auto;
+}
+
+#Members_image {
+    width: 10vw;
+    height: 10vw;
 }
 
 .icone_header img{
@@ -43,5 +64,11 @@ h2{
 .zoom :hover img {
     -webkit-transform: scale(2);
     transform: scale(2);
+}
+
+@media (max-width: 576px) {
+    #logo_header {
+        width: 25vw;
+    }
 }
 

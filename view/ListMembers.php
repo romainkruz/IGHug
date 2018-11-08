@@ -7,16 +7,20 @@
 
 ?>
 
-<p>
+<div  id="Members">
     <?php
     while ($donnees = $reponse->fetch()) {
+        if ($donnees['Online'] == 1) {
     ?>
-    <strong>Nom</strong> : <?php echo $donnees['Name']; ?>
-    <img src="img_profile/image-<?php echo $donnees['ID']; ?>.png">
+        <figure>
+            <img id="Members_image" src="img_profile/image-<?php echo $donnees['ID']; ?>.png">
+            <figcaption><?php echo $donnees['Name']; ?></figcaption>
+        </figure>
     <?php
+        }
     }
     ?>
-</p>
+</div>
 
 <?php
 

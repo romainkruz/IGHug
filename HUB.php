@@ -26,10 +26,11 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-6 col-lg-6">
-
+        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
+            Attente image
         </div>
-        <div class="col-lg-6 col-lg-6">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
+            <h1 class="text-center">Liste des membres connectés</h1>
             <?php include("view/ListMembers.php"); ?>
         </div>
     </div>
