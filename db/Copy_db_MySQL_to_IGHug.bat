@@ -1,1 +1,0 @@
-xcopy "C:\wamp64\bin\mysql\mysql5.7.21\data\ighug_db" "C:\wamp64\www\IGHug\db\ighug_db" /e /i
