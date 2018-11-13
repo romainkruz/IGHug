@@ -26,15 +26,16 @@
 					<div>
 						<input type="password" class="form-control" placeholder="Mot de passe">
 					</div>
-					<div class="Submit">
+					<div class="Submit1">
 						<a href="http://localhost/IGHug/HUB.php">
-							<button type="Submit" class="btn btn-danger">Se connecter</button>
+							<button type="button" class="but1">Se connecter</button>
 						</a>
 					</div>
 				</form>
 			</div>
 		</div>
-	<hr />
+		<br>
+	<!--<hr />-->
 		<div class="row">
 			<div class="col-md-12">
 				<h1 align="center">Ighug te met en relation avec des personnes de ton campus avec qui tu as surement déja échangé un regard</h1>
@@ -75,22 +76,22 @@
 						<div class="form-group">
 							<input type="email" class="form-control" placeholder="Votre Email">
 						</div>		
-						<div class="Submit">
-							<a href="HUB.html">
-								<button type="Submit" class="btn btn-danger">S'inscrire</button>
+						<div class="Submit2">
+							<a href="http://localhost/IGHug/HUB.php">
+								<button type="button" class="but2">S'inscrire</button>
 							</a>
 						</div>
 					</form>
 				</div>
 				<div class="col-md-6">
 					<form>
-						<img alt="Image d'accueil" src="img/image_accueil.jpg" class="img-fluid" alt="Responsive image">
+						<img alt="Image d'accueil" src="img/image_accueil1.jpg" class="img-fluid" alt="Responsive image" id="img_accueil">
 					</form>
 				</div>	
 			</div>
 <br>
 <br>
-				<div class="row">
+				<div class="row" id="quote">
 					<form class="form-inline">
 						<div class="col-md-4">
 							<blockquote class="blockquote">
@@ -103,7 +104,7 @@
 						<div class="col-md-4">
 							<blockquote class="blockquote">
 								<p>
-									"Les beurettes d'IGS n'ont plus eu de secrets pour moi, grace à cet outil"
+									"N'ayant pas eu de relation longue depuis un moment, j'ai trouvé l'homme que je cherchais facilement"
 								</p>
 								<cite>- Romain Krumescouilles, IPI</cite>
 							</blockquote>
@@ -111,7 +112,7 @@
 						<div class="col-md-4">
 							<blockquote class="blockquote">
 								<p>
-									"Passionné depuis toujours par les buckets de poulet, ce site m'a sauvé la vie en me remettant sur le droit chemin des petites"
+									"Comme de nombreuses personnes j'étais un peu réticent, mais le site m'a vite démontré toute son utilité sur le campus"
 								</p>
 								<cite>- Alexis Chatain, IPI</cite>
 							</blockquote>
