@@ -27,14 +27,14 @@ input[type="password"] {
 h1 {
 	color : #364246;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 	font-family: "lobster_1.4regular";
 	}
 
 h2 {
 	color : #364246;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 	font-family: "lobster_1.4regular";
 	}
 
@@ -47,7 +47,7 @@ h3 {
 	}
 
 #login {
-	margin-top: 9%;
+	margin-top: 10%;
 	margin-left: 15%
 	}
 
@@ -55,16 +55,17 @@ h3 {
 	margin-left: 5%;
 	margin-top: 2%;
 	width: 11vw;
+	padding-bottom: 2%;
 	}
 
 #cit {
 	font-size: 30px
 }
 
-/*hr {
+hr {
 	margin-left: 10%;
 	margin-right: 10%;
-	}*/
+	}
 
 #quote {
 	color : #364246;
@@ -72,7 +73,9 @@ h3 {
 }
 
 #img_accueil {
-	border-radius: 8px;
+	border-radius: 30px;
+	padding-top: 1%;
+
 }
 
 .but1 {
@@ -86,14 +89,32 @@ h3 {
 }
 
 .but2 {
-	border-radius: 6px;
+	border-radius: 40px;
 	color: #FFE4E1;
 	background-color: #364246;
-	width: 150px;
+	width: 175px;
+	margin-left: 30%;
 }
 
 .Submit2 {
 
+}
+
+li {
+	display: inline;
+	padding: 3%;
+
+}
+
+#langue {
+	text-align: center;
+	color: #364246;
+}
+
+#oubli {
+	margin-left: 0%;
+	font-size: 0.8em;
+	color: #FFE4E1;
 }
 
 @font-face {

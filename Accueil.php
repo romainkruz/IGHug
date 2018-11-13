@@ -15,7 +15,7 @@
     <div class="container-fluid">
 		<div class="row" id="color_head">
 			<div class="col-md-6 form-inline">
-				<img id="logo" alt="Logo" src="img\Logo_IGHug.png">
+				<img id="logo" alt="Logo" src="img\Logo_IGHug_LessIGS_-320x300.png">
 				<p id="desc">Le site de rencontre du campus IGS</p>
 			</div>
 			<div class="col-md-6">
@@ -31,6 +31,9 @@
 							<button type="button" class="but1">Se connecter</button>
 						</a>
 					</div>
+						<a href="#" id="oubli">J'ai oublié mes identifiants
+						</a>
+					</p>
 				</form>
 			</div>
 		</div>
@@ -45,7 +48,7 @@
 		</div>
 <br>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<form role="form" >
 						<div class="form-group"> 
 							<input type="nom" class="form-control" placeholder="Votre Nom">
@@ -56,14 +59,14 @@
 						<div class="form-group">		
 							<input type="age" class="form-control" placeholder="Votre Age">
 						</div>
-						<select class=form-control>
-							<option>Votre Sexe</option>
+						<select class=form-control >
+							<option disabled selected>Votre Sexe</option>
 							<option>Femme</option>
 							<option>Homme</option>
 						</select>
 						<br>
 						<select class=form-control>
-							<option>Votre école</option>
+							<option disabled selected>Votre école</option>
 							<option>IPI</option>
 							<option>ICD</option>
 							<option>ISCPA</option>
@@ -76,6 +79,9 @@
 						<div class="form-group">
 							<input type="email" class="form-control" placeholder="Votre Email">
 						</div>		
+						<div class="form-group"> 
+							<input type="password" class="form-control" placeholder="Votre mot de passe">
+						</div>
 						<div class="Submit2">
 							<a href="http://localhost/IGHug/HUB.php">
 								<button type="button" class="but2">S'inscrire</button>
@@ -83,7 +89,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-7">
 					<form>
 						<img alt="Image d'accueil" src="img/image_accueil1.jpg" class="img-fluid" alt="Responsive image" id="img_accueil">
 					</form>
@@ -118,6 +124,20 @@
 							</blockquote>
 						</div>
 					</form>
+				</div>
+				<hr>
+				<div class="col-md-12" id=langue>					                         
+					<ul>
+						 <li><a href="#">Francais</a></li>
+						 <li><a href="#">Espagnol</a></li>
+						 <li><a href="#">Portugais</a></li>
+						 <li><a href="#">Anglais</a></li>
+						 <li><a href="#">Italien</a></li>
+						 <li><a href="#">Chinois</a></li>
+					</ul>
+					<p>
+						IGHug © 2018
+					</p>
 				</div>
 
     <script src="js/jquery.min.js"></script>
