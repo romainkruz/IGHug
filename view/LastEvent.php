@@ -19,11 +19,13 @@ $today = $today->format('Y-m-d');
             if ((($result_last == 0) OR ($result < $result_last)) AND ($result > 0)) {
                 $result_last = $result;
                 $next_event_date = ($donnees['date']);
+                $next_event_city = ($donnees['ville']);
+                $next_event_description = ($donnees['description']);
                 }
         }
-        echo $next_event_date;
+        echo "Le prochain événement aura lieu le : " . $next_event_date;
         ?>
-    </div>
+</div>
 
 
 

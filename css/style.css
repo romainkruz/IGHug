@@ -6,10 +6,17 @@
     font-style: normal;
 }
 
-header {
-    background-color: #364246;
-    color: white;
-    line-height: 6vw;
+aside {
+    line-height: 20vw;
+}
+
+figcaption{
+    text-align: center;
+    font-family: "lobster_1.4regular";
+}
+
+figure{
+    display: inline-block;
 }
 
 h1{
@@ -22,17 +29,20 @@ h2{
     font-style: italic;
 }
 
-figure{
-    display: inline-block;
+header {
+    background-color: #364246;
+    color: white;
+    line-height: 6vw;
 }
 
-figcaption{
-    text-align: center;
-    font-family: "lobster_1.4regular";
+#agenda {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline;
 }
 
-#Titre{
-    width: 50vw;
+#agenda-picture {
+    background: url("../img/agenda.jpg") no-repeat scroll;
+    background-size: cover;
 }
 
 #logo_header {
@@ -49,9 +59,8 @@ figcaption{
     height: 10vw;
 }
 
-#agenda-picture {
-    background: url("../img/agenda.jpg") no-repeat scroll;
-    background-size: cover;
+#Titre{
+    width: 50vw;
 }
 
 .icone_header img{
