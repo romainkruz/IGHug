@@ -27,7 +27,10 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-            Attente image
+            <h1 class="text-center">Prochain événement</h1>
+            <aside id="agenda-picture" class="hidden-sm hidden-md">
+                <?php include("view/LastEvent.php"); ?>
+            </aside>
         </div>
         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
             <h1 class="text-center">Liste des membres connectés</h1>
@@ -42,3 +45,5 @@
 
 </body>
 </html>
+
+

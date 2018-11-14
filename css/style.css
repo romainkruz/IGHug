@@ -49,6 +49,11 @@ figcaption{
     height: 10vw;
 }
 
+#agenda-picture {
+    background: url("../img/agenda.jpg") no-repeat scroll;
+    background-size: cover;
+}
+
 .icone_header img{
     width: 2vw;
     margin-left: 1vw;
