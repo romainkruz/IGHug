@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 13 nov. 2018 à 13:05
+-- Généré le :  jeu. 15 nov. 2018 à 09:21
 -- Version du serveur :  5.7.21
 -- Version de PHP :  5.6.35
 
@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `events` (
   `cp` varchar(255) NOT NULL,
   `ville` varchar(255) NOT NULL,
   `description` varchar(255) NOT NULL,
+  `nom` varchar(255) NOT NULL,
   PRIMARY KEY (`id_events`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
@@ -44,17 +45,17 @@ CREATE TABLE IF NOT EXISTS `events` (
 -- Déchargement des données de la table `events`
 --
 
-INSERT INTO `events` (`id_events`, `date`, `heure`, `adresse`, `cp`, `ville`, `description`) VALUES
-(1, '2018-12-15', '22:00:00', '1623 Velit Chemin', '34742', 'Les Bons Villers', 'magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam'),
-(2, '2018-12-14', '22:00:00', '248-7113 Dolor, Rue', '2936', 'Chiusanico', 'purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum.'),
-(3, '2018-12-13', '22:00:00', '8329 Ante Rd.', '35474', 'Louisville', 'rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed,'),
-(4, '2018-12-12', '22:00:00', 'CP 255, 7275 Orci. Ave', '59-030', 'Grande Prairie', 'eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac'),
-(5, '2018-12-11', '22:00:00', 'Appartement 525-7793 Ipsum Route', '08016', 'Rossignol', 'hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in'),
-(6, '2018-12-10', '22:00:00', '2834 Pede. Rue', '98563', 'Makurdi', 'metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede et risus. Quisque libero'),
-(7, '2018-12-09', '22:00:00', '9912 Commodo Impasse', '7960', 'Ospedaletto Lodigiano', 'nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis'),
-(8, '2018-12-08', '22:00:00', '5354 Ac Ave', '3863 YY', 'Langley', 'sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit'),
-(9, '2018-12-07', '22:00:00', 'CP 839, 676 Velit Ave', '01771', 'Wolvertem', 'eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris'),
-(10, '2018-12-06', '22:00:00', 'Appartement 569-3948 Consectetuer Ave', '3637', 'Uddevalla', 'accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut');
+INSERT INTO `events` (`id_events`, `date`, `heure`, `adresse`, `cp`, `ville`, `description`, `nom`) VALUES
+(1, '2018-12-15', '22:00:00', '25 Rue des Filatiers', '31000', 'Toulouse', 'magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam', 'Le Volcan'),
+(2, '2018-12-14', '22:00:00', '39 rue Reclusane, Toulouse', '31000', 'Toulouse', 'purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum.', ' La Loupiote'),
+(3, '2018-12-13', '22:00:00', '23 Rue des Amidonniers, Toulouse', '31000', 'Toulouse', 'rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed,', 'Le Taquin'),
+(4, '2018-11-20', '22:00:00', '7 Place Saint-Pierre', '31000', 'Toulouse', 'eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac', 'Le Bar Basque'),
+(5, '2018-12-11', '22:00:00', '16 Place Saint-Pierre', '31000', 'Toulouse', 'hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in', 'Chez Tonton'),
+(6, '2018-12-10', '22:00:00', '7bis rue Pierre Paul Riquet', '31000', 'Toulouse', 'metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede et risus. Quisque libero', 'The Petit London'),
+(7, '2018-11-16', '22:00:00', '14 rue de Prêtres', '31000', 'Toulouse', 'nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis', 'The London Town'),
+(8, '2018-12-08', '22:00:00', '16, Rue de la Trinité', '31000', 'Toulouse', 'sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit', 'L\'ancienne Belgique'),
+(9, '2018-09-07', '22:00:00', '13 Place de la Daurade', '31000', 'Toulouse', 'eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris', 'Café des Artistes'),
+(10, '2018-12-06', '22:00:00', '8 Place du Pont Neuf', '31000', 'Toulouse', 'accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut', 'Le Filochard');
 
 -- --------------------------------------------------------
 

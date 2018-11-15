@@ -10,7 +10,7 @@ $today = $today->format('Y-m-d');
 
 ?>
 
-    <div  id="agenda">
+    <div  class="text-center" id="agenda">
         <?php
         $result_last = 0;
         while ($donnees = $reponse->fetch()) {
@@ -23,7 +23,9 @@ $today = $today->format('Y-m-d');
                 $next_event_description = ($donnees['description']);
                 }
         }
-        echo "Le prochain événement aura lieu le : " . $next_event_date;
+        $next_event_date_format = explode("-", $next_event_date);
+        $next_event_date_format = $next_event_date_format[2] . "/" . $next_event_date_format[1] . "/" . $next_event_date_format[0];
+        echo "Le prochain événement aura lieu le : " . $next_event_date_format . " à " . $next_event_city;
         ?>
 </div>
 
