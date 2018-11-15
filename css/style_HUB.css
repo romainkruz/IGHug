@@ -7,7 +7,11 @@
 }
 
 aside {
-    line-height: 20vw;
+    height: 10vw;
+}
+
+body{
+    background-color: #FFE4E1
 }
 
 figcaption{
@@ -36,6 +40,8 @@ header {
 }
 
 #agenda {
+    text-align: center;
+    padding-top: 2.5vw;
     color: white;
     font-size: 1.2vw;
 }
@@ -50,18 +56,23 @@ header {
 }
 
 #Members {
-    height: 30vw;
+    height: 31vw;
     overflow: auto;
-}
-
-#maps{
-    width: 39vw;
-    height: 30vw;
 }
 
 #Members_image {
     width: 8vw;
     height: 8vw;
+}
+
+#maps{
+    height: 100%;
+    width: 100%;
+}
+
+#maps_div{
+    margin-top: 0.2vw;
+    height: 20.8vw;
 }
 
 #Titre{

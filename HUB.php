@@ -31,14 +31,17 @@
             <aside id="agenda-picture" class="hidden-sm hidden-md">
                 <?php include("view/LastEvent.php"); ?>
             </aside>
-            <div class="center-block">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vsfcmfFqcvucerzGZ78aZeDmAnmCnV_w" id="maps"></iframe>
+            <div id="maps_div" class="text-center">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vsfcmfFqcvucerzGZ78aZeDmAnmCnV_w" id="maps" scrolling="no" frameborder="0"></iframe>
             </div>
         </div>
         <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
             <h1 class="text-center">Liste des membres connectés</h1>
             <?php include("view/ListMembers.php"); ?>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
     </div>
 </div>
 
