@@ -59,7 +59,7 @@ h3 {
 	}
 
 #cit {
-	font-size: 30px
+	font-size: 30px;
 }
 
 hr {
@@ -115,6 +115,7 @@ li {
 	margin-left: 0%;
 	font-size: 0.8em;
 	color: #FFE4E1;
+	font-family: "lobster_1.4regular";
 }
 
 @font-face {
@@ -123,3 +124,8 @@ li {
     url('../fonts/lobster_1.4-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+input, button, li, select {
+	font-family: "lobster_1.4regular";
+}
