@@ -49,23 +49,23 @@
 <br>
 			<div class="row">
 				<div class="col-md-5">
-					<form role="form" >
+					<form method="post" action="view/Inscription.php">
 						<div class="form-group"> 
-							<input type="nom" class="form-control" placeholder="Votre Nom">
+							<input name="nom" type="nom" class="form-control" placeholder="Votre Nom" maxlength="20">
 						</div>
 						<div class="form-group">
-							<input type="prenom" class="form-control" placeholder="Votre Prénom">
+							<input name="prenom" type="prenom" class="form-control" placeholder="Votre Prénom" maxlength="20">
 						</div>
 						<div class="form-group">		
-							<input type="age" class="form-control" placeholder="Votre Age">
+							<input name="age" type="age" class="form-control" placeholder="Votre Age" maxlength="2">
 						</div>
-						<select class=form-control >
+						<select name="sexe" class=form-control >
 							<option disabled selected>Votre Sexe</option>
 							<option>Femme</option>
 							<option>Homme</option>
 						</select>
 						<br>
-						<select class=form-control>
+						<select name="ecole" class=form-control>
 							<option disabled selected>Votre école</option>
 							<option>IPI</option>
 							<option>ICD</option>
@@ -77,15 +77,14 @@
 						</select>
 						<br>
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Votre Email">
+							<input name="email" type="mail" class="form-control" placeholder="Votre Email" maxlength="40">
 						</div>		
 						<div class="form-group"> 
-							<input type="password" class="form-control" placeholder="Votre mot de passe">
+							<input name="login" type="password" class="form-control" placeholder="Votre mot de passe" 
+							maxlength="20">
 						</div>
 						<div class="Submit2">
-							<a href="http://localhost/IGHug/HUB.php">
-								<button type="button" class="but2">S'inscrire</button>
-							</a>
+								<input type="submit" class="but2" value="S'inscrire">
 						</div>
 					</form>
 				</div>
