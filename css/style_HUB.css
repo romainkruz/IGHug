@@ -29,8 +29,9 @@ h1{
 }
 
 h2{
-    font-size: 1vw;
+    font-size: 2vw;
     font-style: italic;
+    text-decoration: underline;
 }
 
 header {
@@ -51,6 +52,34 @@ header {
     background-size: cover;
 }
 
+#customPopup
+{
+    position: fixed;
+    display: none;
+    left: 50%;
+    top: 50%;
+    z-index: 2000;
+    padding: 20px;
+    width: 560px;
+    background-color: #EEEEEE;
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    border : 3px outset #555555;
+}
+
+#grayBack
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1999;
+    opacity: 0.5;
+}
+
 #logo_header {
     width: 8vw;
 }
@@ -61,8 +90,12 @@ header {
 }
 
 #Members_image {
-    width: 8vw;
-    height: 8vw;
+    width: 7.5vw;
+    height: 7.5vw;
+}
+
+#Members_by_school{
+    display: none;
 }
 
 #maps{
@@ -73,6 +106,56 @@ header {
 #maps_div{
     margin-top: 0.2vw;
     height: 20.8vw;
+}
+
+#school_Titre {
+    margin-top: 1vw;
+}
+
+#school_div {
+    margin-bottom: 15px;
+}
+
+#school_ESAM{
+    width: 12%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_ICD{
+    width: 15%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_IGS_Alternance{
+    width: 13%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_IGS_Formation_continue{
+    width: 13%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_IGS_RH{
+    width: 11%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_IPI{
+    width: 10%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+#school_IGS_ISCPA{
+    width: 12%;
+    margin-right: 10px;
+    cursor:pointer;
 }
 
 #Titre{

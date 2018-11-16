@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,14 +11,14 @@
     <meta name="author" content="QAR">
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/style_HUB.css" rel="stylesheet">
+    <link href="css/style_Hub.css" rel="stylesheet">
     <link rel="icon" href="img/Logo_IGHug.png" />
 
 </head>
 
 <header>
 
-    <?php include("header.php"); ?>
+    <?php include("Header.php"); ?>
 
 </header>
 
@@ -27,7 +27,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
-            <h1 class="text-center"></h1>
+            <h1 class="text-center">Prochain événement</h1>
             <aside id="agenda-picture" class="hidden-sm hidden-md">
                 <?php include("view/LastEvent.php"); ?>
             </aside>
@@ -42,12 +42,42 @@
     </div>
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div id="school_Titre">
+                <h1 class="text-center">Membres par école</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="school_div" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <img src="img/IPI.png" id="school_IPI">
+            <img src="img/ICD.png" id="school_ICD">
+            <img src="img/ISCPA.png" id="school_IGS_ISCPA">
+            <img src="img/ESAM.png" id="school_ESAM">
+            <img src="img/IGS-RH.png" id="school_IGS_RH">
+            <img src="img/IGS-Alternance.png" id="school_IGS_Alternance">
+            <img src="img/IGS-Formation continue.png" id="school_IGS_Formation_continue">
+        </div>
+    </div>
+    <div id="Members_by_school">
+    </div>
+    <hr>
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+        <p>
+            IGHug © 2018
+        </p>
+    </div>
+    <div id="customPopup">
+        <h3>Titre du popup</h3>
+        <p>Message du popup !</p>
+        <input type="button" value="Ok" onclick="hidePopup();">
     </div>
 </div>
 
 <script src="node_modules/jquery/dist/jquery.js"></script>
 <script src="node_modules/popper.js/dist/popper.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="script/Hub.js"></script>
+<script src="script/Popup.js"></script>
 
 </body>
 </html>
