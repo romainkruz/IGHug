@@ -19,21 +19,17 @@
 				<p id="desc">Le site de rencontre du campus IGS</p>
 			</div>
 			<div class="col-md-6">
-				<form class="form-inline" id="login">
+				<form class="form-inline" id="login" method="post" action="view/Connexion.php">
 					<div>
-						<input type="email" class="form-control" placeholder="Identifiant">
+						<input name="email1" type="mail" class="form-control" placeholder="Email">
 					</div>
 					<div>
-						<input type="password" class="form-control" placeholder="Mot de passe">
+						<input name="Motdepasse" type="password" class="form-control" placeholder="Mot de passe">
 					</div>
 					<div class="Submit1">
-						<a href="http://localhost/IGHug/HUB.php">
-							<button type="button" class="but1">Se connecter</button>
-						</a>
+							<input type="submit" class="but1" value="Se connecter">
 					</div>
-						<a href="#" id="oubli">J'ai oublié mes identifiants
-						</a>
-					</p>
+						<a href="#" id="oubli">J'ai oublié mes identifiants</a>
 				</form>
 			</div>
 		</div>
@@ -42,8 +38,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h1 align="center">Ighug te met en relation avec des personnes de ton campus avec qui tu as surement déja échangé un regard</h1>
-				<h2 align="center">Grace à Ighug retrouve cette personne ou découvres en d'autre, pour un verre, un soir ou plus longtemps.</h1>
-				<h3 align="center">Inscris toi</h2>
+				<h2 align="center">Grace à Ighug retrouve cette personne ou découvres en d'autre, pour un verre, un soir ou plus longtemps.</h2>
+				<h3 align="center">Inscris toi</h3>
 			</div>
 		</div>
 <br>
