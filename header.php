@@ -11,7 +11,7 @@
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 zoom icone_header">
             <a href="http://localhost/IGHug/HUB.php"><img src="img/home-5-xxl.png"/></a>
             <a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a>
-            <a href="http://localhost/IGHug/Event.php"><img src="img/champagne-xxl.png"/></a>
+            <a href="http://localhost/IGHug/Events.php"><img src="img/champagne-xxl.png"/></a>
             <a href="http://localhost/IGHug/Modify.php"><img src="img/contacts-xxl.png"/></a>
         </div>
     </div>
