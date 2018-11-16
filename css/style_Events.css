@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('../fonts/lobster_1.4-webfont.woff2') format('woff2'),
+    url('../fonts/lobster_1.4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#main_bloc
+{
+	background-color: #364246;	
+}
+
+#gauche
+{
+	background-color: #eac6c6;
+	border-radius: 15px;
+}
+
+#titre_quart
+{
+	background-color: #ca5261;
+	border-radius: 15px;
+}
+
+#premier_quart
+{
+	background-color: #f1aca5;
+	border-radius: 15px;
+}
+
+#deuxieme_quart
+{
+	background-color: #eb7e7e;
+	border-radius: 15px;
+}
+
+#troisieme_quart
+{
+	background-color: #eb7e7e;
+	border-radius: 15px;
+}
+
+#quatrieme_quart
+{
+	background-color: #f1aca5;
+	border-radius: 15px;
+}
+
+span
+{
+	font-family: 'lobster_1.4regular';
+}
+
+h1
+{
+	font-family: 'lobster_1.4regular';
+	font-size: 2em;
+	text-align: center;
+}
+
+h2
+{
+	font-family: 'lobster_1.4regular';
+	font-size: 2em;
+	text-align: center;
+}
+
+h3
+{
+	font-family: 'lobster_1.4regular';
+	font-size: 1em;
+}
