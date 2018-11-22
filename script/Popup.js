@@ -41,6 +41,6 @@ function hidePopup() {
 
 function showmail(mail) {
 
-    $("#onemember_mail").('value',mail);
+    $("#onemember_mail").val(mail);
 
 }
