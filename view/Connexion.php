@@ -32,8 +32,11 @@
 		else {
 		$bdd->query(
 			"UPDATE members SET Online = '1' WHERE Email = '$email1';"
-		);}
-	echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>';
+		);
+
+	header('Location:http://localhost/IGHug/Accueil.php'); 
+	//echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>'
+		}
 	}
 	
 ?>

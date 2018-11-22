@@ -41,7 +41,8 @@
     );
 
 // Redirection vers la page HUB.php
-    echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>';
+    header('Location:http://localhost/IGHug/Accueil.php'); 
+    //echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>';
     }
 
 ?>
