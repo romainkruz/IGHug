@@ -1,42 +1,27 @@
 <?php
 
-// Récupération des champs de Accueil.php
-	if(isset($_POST['email1']))      $email1=$_POST['email1'];
-	    else      $email1="";
+// On teste si les variables sont définies et on récupère les champs de Accueil.php
+	if(isset($_POST['email1']) && isset($_POST['Motdepasse'])){
+		$email1=$_POST['email1'];
+	    $Motdepasse=$_POST['Motdepasse'];
 
-	if(isset($_POST['Motdepasse']))      $Motdepasse=$_POST['Motdepasse'];
-	    else      $Motdepasse="";
-
-//Vérification des champs vides
-	if(empty($email1) OR empty($Motdepasse))
-	    { 
-	    header('Location:http://localhost/IGHug/Accueil.php'); 
-	    } 
-
-// Si aucun champs vide -> Connection à la base
-
-	else 
-	    { 	
-	try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
+	    try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
         	catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
-// Lien entre la récupération des données et les catégories de la base de donnée
+	    $test = $bdd->query(
+		"SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'");
 
-	$test = $bdd->query(
-		"SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'"
-	);
-
-	if ($test->rowCount() == 0) {
-		header('Location:http://localhost/IGHug/Accueil.php');
-		}
-		else {
-		$bdd->query(
-			"UPDATE members SET Online = '1' WHERE Email = '$email1';"
-		);
-
-	header('Location:http://localhost/IGHug/Accueil.php'); 
-	//echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>'
+		if ($test->rowCount() == 1) {
+			$bdd->query("UPDATE members SET Online = '1' WHERE Email = '$email1';");
+			session_start();
+			$_SESSION['email1'] = $_POST['email1'];
+			$_SESSION['Motdepasse'] = $_POST['Motdepasse'];
+			while ($donnees = $test->fetch()) {
+				$_SESSION['name'] = $donnees['Name'];
+			}
+			header('Location:http://localhost/ighug_andre/Hub.php');
+		} else {
+			header('Location:http://localhost/ighug_andre/Accueil.php');
 		}
 	}
-	
 ?>

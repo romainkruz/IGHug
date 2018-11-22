@@ -5,7 +5,8 @@
 		<title>Events</title>
 		<link rel="icon" href="img/Logo_IGHug.png" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style_HUB.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_Hub.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_Menu.css" />
 		<link rel="stylesheet" type="text/css" href="css/style_Events.css" />
 	</head>
 
