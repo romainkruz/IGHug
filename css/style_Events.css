@@ -71,3 +71,21 @@ h3
 	font-family: 'lobster_1.4regular';
 	font-size: 1em;
 }
+
+.list_places_img
+{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.list_places
+{
+    text-align: center;
+}
+
+.adresses
+{
+	font-style: italic;
+}
