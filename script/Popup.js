@@ -37,3 +37,10 @@ function hidePopup() {
     $("#customPopup").fadeOut('fast', function () { $(this).hide() });
 
 }
+
+
+function showmail(mail) {
+
+    $("#onemember_mail").('value',mail);
+
+}

@@ -12,6 +12,7 @@
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="css/style_Hub.css" rel="stylesheet">
+    <link href="css/style_Menu.css" rel="stylesheet">
     <link rel="icon" href="img/Logo_IGHug.png" />
 
 </head>
@@ -69,7 +70,6 @@
     <div id="customPopup">
         <div id="customPopupcontent">
         </div>
-        <input class="but2" type="button" value="Ok" onclick="hidePopup();">
     </div>
 </div>
 
