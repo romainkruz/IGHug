@@ -19,9 +19,9 @@
 			while ($donnees = $test->fetch()) {
 				$_SESSION['name'] = $donnees['Name'];
 			}
-			header('Location:http://localhost/ighug_andre/Hub.php');
+			header('Location:http://localhost/IGHug/Hub.php');
 		} else {
-			header('Location:http://localhost/ighug_andre/Accueil.php');
+			header('Location:http://localhost/IGHug/Accueil.php');
 		}
 	}
 ?>
