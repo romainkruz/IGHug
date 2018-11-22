@@ -22,7 +22,7 @@ function showPopup(ID) {
         success: function(One_Members) {
             // contenu_soumettre_tv contient tout
             // ce que renvoit "soumettre_cv.php" si tu l'appelais en direct
-            $('h3').html(One_Members); // on met le contenu dans le <div class="art">
+            $("#customPopupcontent").html(One_Members); // on met le contenu dans le <div class="art">
         }
     });
 

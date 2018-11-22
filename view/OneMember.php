@@ -10,8 +10,15 @@
 ?>
 
 <div class="text-center">
-    <?php echo $donnees['Name']; ?>
-    PROUT
+    <div>
+    <img id="onemember_image" src="img_profile/image-<?php echo $ID; ?>.png">
+    </div>
+    <div id="onemember_name">
+    <?php echo $donnees['Name']; ?> <?php echo $donnees['Surname']; ?>
+    </div>
+    <div id="onemember_description">
+        <?php echo $donnees['Description']; ?>
+    </div>
 </div>
 
 <?php

@@ -67,9 +67,9 @@
         </p>
     </div>
     <div id="customPopup">
-        <h3>Titre du popup</h3>
-        <p>Message du popup !</p>
-        <input type="button" value="Ok" onclick="hidePopup();">
+        <div id="customPopupcontent">
+        </div>
+        <input class="but2" type="button" value="Ok" onclick="hidePopup();">
     </div>
 </div>
 
