@@ -73,7 +73,7 @@
 						</select>
 						<br>
 						<div class="form-group">
-							<input name="email" type="mail" class="form-control" placeholder="Votre Email" maxlength="40">
+							<input name="email" type="email" class="form-control" placeholder="Votre Email" maxlength="40">
 						</div>		
 						<div class="form-group"> 
 							<input name="login" type="password" class="form-control" placeholder="Votre mot de passe" 
