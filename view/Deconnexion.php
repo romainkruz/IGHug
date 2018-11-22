@@ -13,8 +13,7 @@
 
 	if ($test->rowCount() == 1) {
 		header('Location:http://localhost/IGHug/Accueil.php');
-		}
-		else {
+		
 		$bdd->query(
 			"UPDATE members SET Online = '0' WHERE Email = '$email1';"
 		);}

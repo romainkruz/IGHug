@@ -1,0 +1,19 @@
+.navigation{
+	display: flex;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.subMenu{
+	position: absolute;
+	right: 45px;
+	top: 0px;
+	padding: 0px;
+	margin: 0px;
+	background: #364246;
+	z-index: 1000;
+	color: white;
+
+}

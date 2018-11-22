@@ -8,11 +8,23 @@
                 <img src="img/Titre-800x70.png" id="Titre"/>
             </div>
         </div>
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 zoom icone_header">
-            <a href="http://localhost/IGHug/HUB.php"><img src="img/home-5-xxl.png"/></a>
-            <a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a>
-            <a href="http://localhost/IGHug/Events.php"><img src="img/champagne-xxl.png"/></a>
-            <a href="http://localhost/IGHug/Modify.php"><img src="img/contacts-xxl.png"/></a>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
+            <ul class="navigation zoom icone_header">
+                <li><a href="http://localhost/IGHug/HUB.php"><img src="img/home-5-xxl.png"/></a></li>
+                <li><a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a></li>
+                <li><a href="http://localhost/IGHug/Events.php"><img src="img/champagne-xxl.png"/></a></li>
+                <li class="toggleSubMenu"><a><img src="img/contacts-xxl.png"/></a>
+                    <ul class="subMenu">
+                        <li><a href="http://localhost/IGHug/Modify.php" title="Modify">Modifier mon profil</a></li>
+                        <li><a href="http://localhost/IGHug/Accueil.php" title="Deconnexion">Deconnexion</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="script/Popup.js"></script>
+        <script src="js/Menu.js"></script>
         </div>
     </div>
 </div>
