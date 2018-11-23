@@ -29,8 +29,7 @@
 					<div class="Submit1">
 							<input type="submit" class="but1" value="Se connecter">
 					</div>
-						<!-- <a href="javascript:showPopup2" id="popup">ID</a> -->
-  						<a href="#" id="oubli">J'ai oublié mes identifiants</a>
+  						<a href="javascript:showPopupForget()" id="oubli">J'ai oublié mes identifiants</a>
 				</form>
 			</div>
 		</div>
@@ -134,11 +133,16 @@
 						IGHug © 2018
 					</p>
 				</div>
+        <div id="PopupForget">
+            <div id="PopupForgetcontent">
+                <input class="but2" type="button" value="OK" onclick="hidePopupForget();">
+            </div>
+        </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/Accueil.js"></script>
+    <script src="script/Accueil.js"></script>
 
   </body>
 </html>

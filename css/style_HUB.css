@@ -202,7 +202,7 @@ header {
 }
 
 .icone_header img{
-    width: 2vw;
+    width: 2em;
     margin-left: 1vw;
 }
 
@@ -229,7 +229,6 @@ header {
 @media (min-width: 577px) and (max-width: 768px){
 
     body{
-        background-color: red;
     }
 
     .icone_header img{
@@ -249,19 +248,22 @@ header {
 }
 
 @media (min-width: 769px) and (max-width: 992px){
+
     body{
-        background-color: yellow;
     }
+
 }
 
 @media (min-width: 993px) and (max-width: 1200px){
+
     body{
-        background-color: blue;
     }
+
 }
 
 @media (min-width: 1201px){
+
     body{
-        background-color: green;
     }
+
 }

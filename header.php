@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-            <ul class="navigation zoom icone_header">
+            <ul class="navigation zoom icone_header float-xl-right float-lg-right float-md-right">
                 <li><a href="http://localhost/IGHug/HUB.php"><img src="img/home-5-xxl.png"/></a></li>
                 <li><a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a></li>
                 <li><a href="http://localhost/IGHug/Events.php"><img src="img/champagne-xxl.png"/></a></li>
@@ -27,7 +27,6 @@
         </div>
 
         <script src="node_modules/jquery/dist/jquery.js"></script>
-        <script src="script/Popup.js"></script>
         <script src="js/Menu.js"></script>
         </div>
     </div>
