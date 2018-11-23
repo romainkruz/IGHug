@@ -29,16 +29,17 @@
 					<div class="Submit1">
 							<input type="submit" class="but1" value="Se connecter">
 					</div>
-						<a href="#" id="oubli">J'ai oublié mes identifiants</a>
+						<a class="popup" onclick="myFunction()">J'ai oublié mes identifiants
+  							<span type="text" class="popuptext" id="myPopup">Popup text...</span></a>
+  <!-- <a>href="#" id="oubli">J'ai oublié mes identifiants</a> -->
 				</form>
 			</div>
 		</div>
 		<br>
-	<!--<hr />-->
 		<div class="row">
 			<div class="col-md-12">
-				<h1 align="center">Ighug te met en relation avec des personnes de ton campus avec qui tu as surement déja échangé un regard</h1>
-				<h2 align="center">Grace à Ighug retrouve cette personne ou découvres en d'autre, pour un verre, un soir ou plus longtemps.</h2>
+				<h1 align="center">Ighug te met en relation avec des personnes de ton campus avec qui tu as déja échangé un regard</h1>
+				<h2 align="center">Grâce à Ighug retrouves cette personne ou découvres en d'autres, pour un verre, un soir ou plus longtemps.</h2>
 				<h3 align="center">Inscris toi</h3>
 			</div>
 		</div>
@@ -53,7 +54,7 @@
 							<input name="prenom" type="prenom" class="form-control" placeholder="Votre Prénom" maxlength="20">
 						</div>
 						<div class="form-group">		
-							<input name="age" type="age" class="form-control" placeholder="Votre Age" maxlength="2">
+							<input name="age" type="number" class="form-control" placeholder="Votre Age"maxlength="2">
 						</div>
 						<select name="sexe" class=form-control >
 							<option disabled selected>Votre Sexe</option>
@@ -97,7 +98,7 @@
 						<div class="col-md-4">
 							<blockquote class="blockquote">
 								<p>
-									"Grace à Ighug, j'ai pu allié ma passion du dév et de la drague"
+									"Grace à Ighug, j'ai pu allier ma passion du dév et de la drague"
 								</p>
 								<cite>- André Rémuzon, IPI</cite>
 							</blockquote>
@@ -123,12 +124,12 @@
 				<hr>
 				<div class="col-md-12" id=langue>					                         
 					<ul>
-						 <li><a href="#">Francais</a></li>
-						 <li><a href="#">Espagnol</a></li>
-						 <li><a href="#">Portugais</a></li>
-						 <li><a href="#">Anglais</a></li>
-						 <li><a href="#">Italien</a></li>
-						 <li><a href="#">Chinois</a></li>
+						 <li><a href="#" style="color: #364246">Francais</a></li>
+						 <li><a href="#" style="color: #364246">Espagnol</a></li>
+						 <li><a href="#" style="color: #364246">Portugais</a></li>
+						 <li><a href="#" style="color: #364246">Anglais</a></li>
+						 <li><a href="#" style="color: #364246">Italien</a></li>
+						 <li><a href="#"style="color: #364246">Chinois</a></li>
 					</ul>
 					<p>
 						IGHug © 2018
@@ -138,6 +139,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/Accueil.js"></script>
 
   </body>
 </html>

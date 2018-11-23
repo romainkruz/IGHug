@@ -8,12 +8,19 @@ ul {
 
 .subMenu{
 	position: absolute;
-	right: 45px;
-	top: 0px;
-	padding: 0px;
-	margin: 0px;
+	left: 70px;
+	top: 2px;
+	padding: 10px;
 	background: #364246;
 	z-index: 1000;
-	color: white;
-
+	margin-top: 40%;
+	border-radius: 2px;
+	line-height: 40px;
+	width: 67%;
 }
+
+li {
+	font-family: "lobster_1.4regular";
+}
+
+
