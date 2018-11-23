@@ -20,8 +20,8 @@
         <?php echo $donnees['Description']; ?>
     </div>
     <div class="text-center">
-        <input class="but2" type="button" value="OK" onclick="hidePopup();">
-        <input id="onemember_mail_button" class="but2" type="button" value="Afficher le mail" onclick="showmail('<?php echo $donnees['Email']; ?>');">
+        <input class="button" type="button" value="OK" onclick="hidePopup();">
+        <input id="onemember_mail_button" class="button" type="button" value="Afficher le mail" onclick="showmail('<?php echo $donnees['Email']; ?>');">
         <div id="onemember_mail"></div>
     </div>
 </div>

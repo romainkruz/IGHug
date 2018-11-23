@@ -32,7 +32,7 @@ $today = $today->format('Y-m-d');
         $next_event_date_format = explode("-", $next_event_date);
         $next_event_date_format = $next_event_date_format[2] . "/" . $next_event_date_format[1] . "/" . $next_event_date_format[0];
         echo "Le prochain événement aura lieu le " . $next_event_date_format . " à " . $next_event_city;
-        echo " au : <br><h2>" . $next_event_nom ."</h2>";
+        echo " au <br><h2>" . $next_event_nom ."</h2>";
     }
     ?>
 </div>
