@@ -6,10 +6,9 @@
 	    $Motdepasse=$_POST['Motdepasse'];
 
 	    try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
-        	catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
+        catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
-	    $test = $bdd->query(
-		"SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'");
+	    $test = $bdd->query("SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'");
 
 		if ($test->rowCount() == 1) {
 			$bdd->query("UPDATE members SET Online = '1' WHERE Email = '$email1';");

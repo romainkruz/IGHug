@@ -204,7 +204,9 @@
 	},
 	"file_history":
 	[
+		"/C/wamp64/www/IGHug/Accueil.php",
 		"/C/wamp64/www/IGHug/view/Connexion.php",
+		"/C/wamp64/www/IGHug/view/Deconnexion.php",
 		"/C/wamp64/www/IGHug/view/ListConcerts.php",
 		"/C/wamp64/www/IGHug/Events.php",
 		"/C/wamp64/www/IGHug/view/ListBars.php",
@@ -220,7 +222,6 @@
 		"/C/wamp64/www/IGHug/css/style_Menu.css",
 		"/C/wamp64/www/ighug_andre/view/ListBars.php",
 		"/C/wamp64/www/ighug_andre/view/ListEvents.php",
-		"/C/wamp64/www/IGHug/Accueil.php",
 		"/C/wamp64/www/IGHug/view/Inscription.php",
 		"/C/wamp64/www/IGHug/view/ListAutres.php",
 		"/C/wamp64/www/IGHug/view/ListRestaurants.php",
@@ -330,8 +331,7 @@
 		"/C/Users/André/Documents/echanger joueur",
 		"/C/Users/André/Documents/gagne",
 		"/C/Users/André/Documents/jouer",
-		"/C/Users/André/Documents/possible",
-		"/C/Users/André/Documents/initialisation"
+		"/C/Users/André/Documents/possible"
 	],
 	"find":
 	{

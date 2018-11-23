@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
@@ -16,7 +20,7 @@
                 <li class="toggleSubMenu"><a><img src="img/contacts-xxl.png"/></a>
                     <ul class="subMenu">
                         <li><a href="http://localhost/IGHug/Modify.php" title="Modify">Modifier mon profil</a></li>
-                        <li><a href="http://localhost/IGHug/Accueil.php" title="Deconnexion">Deconnexion</a></li>
+                        <li><?php echo '<a href="http://localhost/IGHug/view/Deconnexion.php?email1=' .  $_SESSION['email1'] . '" title="Deconnexion">Deconnexion</a>' ?></li>
                     </ul>
                 </li>
             </ul>
