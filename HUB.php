@@ -11,7 +11,7 @@
     <meta name="author" content="QAR">
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="css/style_Hub.css" rel="stylesheet">
+    <link href="css/style_HUB.css" rel="stylesheet">
     <link href="css/style_Menu.css" rel="stylesheet">
     <link rel="icon" href="img/Logo_IGHug.png" />
 
@@ -50,13 +50,13 @@
     </div>
     <div class="row">
         <div id="school_div" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-            <img src="img/IPI.png" id="school_IPI">
-            <img src="img/ICD.png" id="school_ICD">
-            <img src="img/ISCPA.png" id="school_IGS_ISCPA">
-            <img src="img/ESAM.png" id="school_ESAM">
-            <img src="img/IGS-RH.png" id="school_IGS_RH">
-            <img src="img/IGS-Alternance.png" id="school_IGS_Alternance">
-            <img src="img/IGS-Formation continue.png" id="school_IGS_Formation_continue">
+            <img src="img/IPI.png" id="IPI">
+            <img src="img/ICD.png" id="ICD">
+            <img src="img/ISCPA.png" id="ISCPA">
+            <img src="img/ESAM.png" id="ESAM">
+            <img src="img/IGS-RH.png" id="IGS-RH">
+            <img src="img/IGS-Alternance.png" id="IGS-Alternance">
+            <img src="img/IGS-Formation continue.png" id="IGS-Formation-continue">
         </div>
     </div>
     <div id="Members_by_school">
@@ -77,7 +77,6 @@
 <script src="node_modules/popper.js/dist/popper.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <script src="script/Hub.js"></script>
-<script src="script/Popup.js"></script>
 
 </body>
 </html>

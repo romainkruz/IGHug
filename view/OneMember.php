@@ -19,9 +19,10 @@
     <div id="onemember_description">
         <?php echo $donnees['Description']; ?>
     </div>
-    <div id="1" class="text-center">
+    <div class="text-center">
         <input class="but2" type="button" value="OK" onclick="hidePopup();">
-        <input id="onemember_mail" class="but2" type="button" value="Afficher le mail" onclick="showmail('<?php echo $donnees['Email']; ?>');">
+        <input id="onemember_mail_button" class="but2" type="button" value="Afficher le mail" onclick="showmail('<?php echo $donnees['Email']; ?>');">
+        <div id="onemember_mail"></div>
     </div>
 </div>
 
