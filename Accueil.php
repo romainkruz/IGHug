@@ -29,9 +29,8 @@
 					<div class="Submit1">
 							<input type="submit" class="but1" value="Se connecter">
 					</div>
-						<a class="popup" onclick="myFunction()">J'ai oublié mes identifiants
-  							<span type="text" class="popuptext" id="myPopup">Popup text...</span></a>
-  <!-- <a>href="#" id="oubli">J'ai oublié mes identifiants</a> -->
+						<!-- <a href="javascript:showPopup2" id="popup">ID</a> -->
+  						<a href="#" id="oubli">J'ai oublié mes identifiants</a>
 				</form>
 			</div>
 		</div>
