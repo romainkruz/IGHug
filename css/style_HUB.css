@@ -100,8 +100,10 @@ ul {
 {
     position: fixed;
     display: none;
-    left: 45%;
+    left: 50%;
     top: 50%;
+    margin-top: -150px;
+    margin-left: -175px;
     z-index: 2000;
     padding: 20px;
     height: 300px;
