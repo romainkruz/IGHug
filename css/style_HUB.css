@@ -1,11 +1,3 @@
-@font-face {
-    font-family: 'lobster_1.4regular';
-    src: url('../fonts/lobster_1.4-webfont.woff2') format('woff2'),
-    url('../fonts/lobster_1.4-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 aside {
     height: 10em;
 }
@@ -40,6 +32,58 @@ header {
     line-height: 6vw;
 }
 
+li {
+    font-family: "lobster_1.4regular";
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.but2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: #364246;
+}
+
+.icone_header img{
+    width: 2em;
+    margin-left: 1vw;
+}
+
+.navigation{
+    display: flex;
+}
+
+.subMenu{
+    position: absolute;
+    left: 70px;
+    top: 2px;
+    padding: 10px;
+    background: #364246;
+    z-index: 1000;
+    margin-top: 40%;
+    border-radius: 2px;
+    line-height: 40px;
+    width: 67%;
+}
+
+.zoom img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom :hover img {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
 #agenda {
     text-align: center;
     padding-top: 2.5vw;
@@ -68,6 +112,12 @@ header {
     border : 3px outset #555555;
 }
 
+#ESAM{
+    width: 12%;
+    margin-right: 10px;
+    cursor:pointer;
+}
+
 #grayBack
 {
     position: fixed;
@@ -78,77 +128,6 @@ header {
     background-color: black;
     z-index: 1999;
     opacity: 0.5;
-}
-
-#logo_header {
-    width: 8vw;
-}
-
-#Members {
-    height: 31vw;
-    overflow: auto;
-}
-
-#Members_image {
-    width: 7.5vw;
-    height: 7.5vw;
-    border-radius: 10px;
-}
-
-#Members_by_school{
-    display: none;
-}
-
-#maps{
-    height: 100%;
-    width: 100%;
-}
-
-#maps_div{
-    margin-top: 0.2vw;
-    height: 20.8vw;
-}
-
-#maps_div{
-    margin-top: 0.2vw;
-    height: 20.8vw;
-}
-
-#onemember_description{
-    font-size: 1em;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
-
-#onemember_image{
-    width: 10vw;
-    height: 10vw;
-    border-radius: 10px;
-}
-
-#onemember_mail{
-    display: inline-block;
-}
-
-#onemember_name{
-    font-family: "lobster_1.4regular";
-    font-size: 2em;
-    margin-top: 0.5vw;
-    margin-bottom: 0.5vw;
-}
-
-#school_Titre {
-    margin-top: 1vw;
-}
-
-#school_div {
-    margin-bottom: 15px;
-}
-
-#ESAM{
-    width: 12%;
-    margin-right: 10px;
-    cursor:pointer;
 }
 
 #ICD{
@@ -187,62 +166,89 @@ header {
     cursor:pointer;
 }
 
+#logo_header {
+    width: 8vw;
+}
+
+#Members {
+    height: 31vw;
+    overflow: auto;
+}
+
+#Members_by_school{
+    display: none;
+}
+
+#Members_image {
+    width: 7.5vw;
+    height: 7.5vw;
+    border-radius: 10px;
+}
+
+#maps{
+    height: 100%;
+    width: 100%;
+}
+
+#maps_div{
+    margin-top: 0.2vw;
+    height: 20.8vw;
+}
+
+#onemember_description{
+    font-size: 1em;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+#onemember_image{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+
+#onemember_mail{
+    display: inline-block;
+}
+
+#onemember_name{
+    font-family: "lobster_1.4regular";
+    font-size: 2em;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+#school_Titre {
+    margin-top: 1vw;
+}
+
+#school_div {
+    margin-bottom: 15px;
+}
+
 #Titre{
     display: inline-block;
     width: 50vw;
 }
 
-.but2 {
-    font-size: 1.25em;
-    font-weight: bold;
-    color: white;
-    line-height: 30px;
-    border-radius: 10px;
-    background-color: #364246;
-}
-
-.icone_header img{
-    width: 2em;
-    margin-left: 1vw;
-}
-
-.zoom img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-
-.zoom :hover img {
-    -webkit-transform: scale(2);
-    transform: scale(2);
-}
-
-@media (max-width: 576px) {
-
-    #logo_header {
-        width: 25vw;
-    }
-
-}
-
-@media (min-width: 577px) and (max-width: 768px){
-
-    body{
-    }
+@media (max-width: 768px){
 
     .icone_header img{
         width: 4vw;
-        margin-left: 13vw;
+        margin-left: 14.5vw;
     }
 
     #logo_header {
-        text-align: center;
-        width: 13vw;
+        width: 20vw;
     }
 
     #maps_div{
         height: 350px;
+    }
+
+    #Titre{
+        display: inline-block;
+        width: 80vw;
     }
 
 }
@@ -266,4 +272,12 @@ header {
     body{
     }
 
+}
+
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('../fonts/lobster_1.4-webfont.woff2') format('woff2'),
+    url('../fonts/lobster_1.4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }

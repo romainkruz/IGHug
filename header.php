@@ -4,16 +4,16 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-center text-xl-left text-lg-left text-md-left">
             <img id="logo_header" src="img/Logo_IGHug_Nude-320x260.png"/>
         </div>
-        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12">
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
             <div class="page-header text-center">
                 <img src="img/Titre-800x70.png" id="Titre"/>
             </div>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">
-            <ul class="navigation zoom icone_header float-xl-right float-lg-right float-md-right">
+            <ul class="navigation zoom icone_header float-xl-right float-lg-right float-md-right text-center">
                 <li><a href="http://localhost/IGHug/HUB.php"><img src="img/home-5-xxl.png"/></a></li>
                 <li><a href="http://localhost/IGHug/Research.php"><img src="img/search-3-xxl.png"/></a></li>
                 <li><a href="http://localhost/IGHug/Events.php"><img src="img/champagne-xxl.png"/></a></li>
