@@ -1,5 +1,5 @@
 aside {
-    height: 10vw;
+    height: 10em;
 }
 
 body{
@@ -174,7 +174,7 @@ ul {
 }
 
 #Members {
-    height: 31vw;
+    height: 31em;
     overflow: auto;
 }
 
@@ -194,8 +194,8 @@ ul {
 }
 
 #maps_div{
-    margin-top: 0.2vw;
-    height: 20.8vw;
+    margin-top: 0.2em;
+    height: 20.8em;
 }
 
 #onemember_description{

@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
             <h1 class="text-center">Prochain événement</h1>
-            <aside id="agenda-picture" class="hidden-sm hidden-md">
+            <aside id="agenda-picture">
                 <?php include("view/LastEvent.php"); ?>
             </aside>
             <div id="maps_div" class="text-center">
