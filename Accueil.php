@@ -133,11 +133,11 @@
 						IGHug © 2018
 					</p>
 				</div>
-        <div id="PopupForget">
-            <div id="PopupForgetcontent">
-                <input class="but2" type="button" value="OK" onclick="hidePopupForget();">
-            </div>
-        </div>
+        
+		        <div id="PopupForget">
+		            <div id="PopupForgetcontent">
+		            </div>
+		        </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
