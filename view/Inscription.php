@@ -16,6 +16,7 @@
 
         session_start();
         $_SESSION['email1'] = $email;
+        $_SESSION['loginok'] = true;
         header('Location:http://localhost/IGHug/Hub.php');
     } else {
          header('Location:http://localhost/IGHug/Accueil.php');

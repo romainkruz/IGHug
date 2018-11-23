@@ -1,7 +1,3 @@
-<?php
-    session_start();
-?>
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12 text-center text-xl-left text-lg-left text-md-left">

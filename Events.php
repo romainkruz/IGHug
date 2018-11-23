@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if ($_SESSION['loginok'] == false) {
+        header('Location:http://localhost/IGHug/Accueil.php');
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,7 +13,6 @@
 		<link rel="icon" href="img/Logo_IGHug.png" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/style_Hub.css" />
-		<link rel="stylesheet" type="text/css" href="css/style_Menu.css" />
 		<link rel="stylesheet" type="text/css" href="css/style_Events.css" />
 	</head>
 
@@ -57,5 +63,6 @@
 
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="script/Events.js"></script>
 	</body>
 </html>

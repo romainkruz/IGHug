@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if ($_SESSION['loginok'] == false) {
+        header('Location:http://localhost/IGHug/Accueil.php');
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

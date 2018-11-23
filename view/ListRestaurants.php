@@ -6,11 +6,11 @@
     $reponse = $bdd->query('SELECT * FROM places');
 
 	while ($donnees = $reponse->fetch()) {
-			if ($donnees['type'] == 'Restaurant') {
-				$url_img = 'img_places/image_' . $donnees['id_places'] . '.jpg';
-				redimensionnerimg($url_img, 175, 175);
-				echo '<div class="list_places"><div><strong>' . $donnees['nom'] . '</strong></div><div class="adresses"><img src="img/localisation2.png" class="img_fluid" />' . $donnees['adresse'] . ' ' . $donnees['cp'] . ' ' . $donnees['ville'] . '</div><div class="restaurant_description">' . $donnees['description'] . '</div></div><br />';
-			}
+		if ($donnees['type'] == 'Restaurant') {
+			$url_img = 'img_places/image_' . $donnees['id_places'] . '.jpg';
+			redimensionnerimg($url_img, 175, 175);
+			echo '<div class="list_places"><div><strong>' . $donnees['nom'] . '</strong></div><div class="adresses"><img src="img/localisation2.png" class="img_fluid" />' . $donnees['adresse'] . ' ' . $donnees['cp'] . ' ' . $donnees['ville'] . '</div><div class="restaurant_description">' . $donnees['description'] . '</div></div><br />';
+		}
 	}
 
     $reponse->closeCursor(); // Termine le traitement de la requête
