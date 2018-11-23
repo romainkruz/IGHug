@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"sessionun",
+				"session_unset"
+			],
+			[
 				"list",
 				"list_places"
 			],
@@ -171,6 +175,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Accueil.php",
+			"settings":
+			{
+				"buffer_size": 5036,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -204,25 +217,31 @@
 	},
 	"file_history":
 	[
-		"/C/wamp64/www/IGHug/Accueil.php",
-		"/C/wamp64/www/IGHug/view/Connexion.php",
+		"/C/wamp64/www/IGHug/Hub.php",
+		"/C/wamp64/www/IGHug/script/Hub.js",
 		"/C/wamp64/www/IGHug/view/Deconnexion.php",
-		"/C/wamp64/www/IGHug/view/ListConcerts.php",
+		"/C/wamp64/www/IGHug/view/Connexion.php",
+		"/C/wamp64/www/IGHug/view/Inscription.php",
+		"/C/wamp64/www/IGHug/header.php",
 		"/C/wamp64/www/IGHug/Events.php",
-		"/C/wamp64/www/IGHug/view/ListBars.php",
-		"/C/wamp64/www/ighug_andre/view/Connexion.php",
-		"/C/wamp64/www/ighug_andre/view/test.php",
+		"/C/wamp64/www/IGHug/Accueil.php",
+		"/C/wamp64/www/IGHug/js/Menu.js",
+		"/C/wamp64/www/IGHug/css/style_Menu.css",
+		"/C/wamp64/www/IGHug/Header.php",
+		"/C/wamp64/www/IGHug/view/LoginOk.php",
 		"/C/wamp64/www/ighug_andre/Accueil.php",
 		"/C/wamp64/www/ighug_andre/Hub.php",
-		"/C/wamp64/www/IGHug/Header.php",
-		"/C/wamp64/www/ighug_andre/view/Inscription.php",
+		"/C/wamp64/www/ighug_andre/view/Deconnexion.php",
+		"/C/wamp64/www/ighug_andre/view/Connexion.php",
 		"/C/wamp64/www/ighug_andre/Header.php",
+		"/C/wamp64/www/IGHug/view/ListBars.php",
+		"/C/wamp64/www/IGHug/view/ListConcerts.php",
+		"/C/wamp64/www/ighug_andre/view/test.php",
+		"/C/wamp64/www/ighug_andre/view/Inscription.php",
 		"/C/wamp64/www/ighug_andre/css/style_HUB.css",
 		"/C/wamp64/www/ighug_andre/Events.php",
-		"/C/wamp64/www/IGHug/css/style_Menu.css",
 		"/C/wamp64/www/ighug_andre/view/ListBars.php",
 		"/C/wamp64/www/ighug_andre/view/ListEvents.php",
-		"/C/wamp64/www/IGHug/view/Inscription.php",
 		"/C/wamp64/www/IGHug/view/ListAutres.php",
 		"/C/wamp64/www/IGHug/view/ListRestaurants.php",
 		"/C/wamp64/www/IGHug/css/style_Events.css",
@@ -325,17 +344,11 @@
 		"/C/Users/André/Documents/Puissance 4/possible",
 		"/C/Users/André/Documents/Puissance 4/jouer",
 		"/C/Users/André/Documents/Puissance 4/afficher joueur gagnant",
-		"/C/Users/André/Documents/Puissance 4/echanger joueur",
-		"/C/Users/André/Documents/Puissance 4/gagne",
-		"/C/Users/André/Documents/Puissance 4/puissance 4",
-		"/C/Users/André/Documents/echanger joueur",
-		"/C/Users/André/Documents/gagne",
-		"/C/Users/André/Documents/jouer",
-		"/C/Users/André/Documents/possible"
+		"/C/Users/André/Documents/Puissance 4/echanger joueur"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -349,6 +362,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"method",
 			"$email1",
 			"post",
 			"get",
@@ -372,8 +386,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Accueil.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1717,
+								1723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 889.333333333,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

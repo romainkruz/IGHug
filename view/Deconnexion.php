@@ -8,6 +8,8 @@
 
     if ($deconnexion->rowCount() == 1) {
     	$bdd->query("UPDATE members SET Online = '0' WHERE Email = '$email1';");
+        // On appelle la session
+        session_start();
     	// On détruit les variables de notre session
     	session_unset();
     	// On détruit notre session

@@ -1,48 +1,23 @@
 <?php
+    // On teste si les variables sont définies et on récupère les champs de Accueil.php
+    if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['age']) && isset($_POST['sexe']) && isset($_POST['ecole']) && isset($_POST['email']) && isset($_POST['login'])) {
+        $prenom=$_POST['prenom'];
+        $nom=$_POST['nom'];
+        $age=$_POST['age'];
+        $sexe=$_POST['sexe'];
+        $ecole=$_POST['ecole'];
+        $email=$_POST['email'];
+        $login=$_POST['login'];
 
-// Récupération des champs de Accueil.php
-    if(isset($_POST['nom']))      $nom=$_POST['nom'];
-    else      $nom="";
+        try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
+        catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
-    if(isset($_POST['prenom']))      $prenom=$_POST['prenom'];
-    else      $prenom="";
+        $bdd->query("INSERT INTO members (Name, Surname, Age, Sex, School, Online, Email, Login, Description) VALUES ('$prenom', '$nom', '$age', '$sexe', '$ecole', '1', '$email', '$login', ' ');");
 
-    if(isset($_POST['age']))      $age=$_POST['age'];
-    else      $age="";
-
-    if(isset($_POST['sexe']))      $sexe=$_POST['sexe'];
-    else      $sexe="";
-
-    if(isset($_POST['ecole']))      $ecole=$_POST['ecole'];
-    else      $ecole="";
-
-    if(isset($_POST['email']))      $email=$_POST['email'];
-    else      $email="";
-
-    if(isset($_POST['login']))      $login=$_POST['login'];
-    else      $login="";
-
-//Vérification des champs vides
-    if(empty($nom) OR empty($prenom) OR empty($age) OR empty($sexe) OR empty($ecole) OR empty($email) OR empty($login))
-    { 
-    header('Location:http://localhost/IGHug/Accueil.php'); 
-    } 
-
-// Si aucun champs vide -> Connection à la base
-    else 
-    { 
-    try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
-            catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
-    
-// Lien entre la récupération des données et les catégories de la base de donnée
-    $bdd->query(
-    "INSERT INTO members (surname, name, age, sex, school, email, login) 
-    VALUES ('$nom', '$prenom', '$age', '$sexe', '$ecole', '$email', '$login');"
-    );
-
-// Redirection vers la page HUB.php
-    header('Location:http://localhost/IGHug/Accueil.php'); 
-    //echo '<script type="text/JavaScript">document.location.href="http://localhost/IGHug/HUB.php"</script>';
+        session_start();
+        $_SESSION['email1'] = $email;
+        header('Location:http://localhost/IGHug/Hub.php');
+    } else {
+         header('Location:http://localhost/IGHug/Accueil.php');
     }
-
 ?>
