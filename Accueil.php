@@ -42,6 +42,13 @@
 			</div>
 		</div>
 <br>
+
+        <?php
+        $host = $_SERVER['SERVER_NAME'];
+
+        echo("<script>console.log('PHP: ".$host."');</script>");
+        ?>
+
 			<div class="row">
 				<div class="col-md-5">
 					<form method="post" action="view/Inscription.php">
