@@ -15,6 +15,11 @@
     	// On détruit notre session
     	session_destroy();
     	// On redirige le visiteur vers la page d'accueil
-    	header('Location:http://localhost/IGHug/Accueil.php');
+        if ($_SERVER['SERVER_NAME']=="localhost"){
+            header('Location:http://localhost/IGHug/Accueil.php');
+        }
+        else {
+            header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/Accueil.php');
+        }
     }
 ?>
