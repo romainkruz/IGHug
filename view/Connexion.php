@@ -20,7 +20,7 @@
                 header('Location:http://localhost/IGHug/Hub.php');
             }
             else {
-                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Hub.php');
+                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/Hub.php');
             }
 		}
 		else {
@@ -28,7 +28,7 @@
 			    header('Location:http://localhost/IGHug/Accueil.php');
 		    }
 		    else{
-                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Accueil.php');
+                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/Accueil.php');
 		    }
         }
 	}
