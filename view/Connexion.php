@@ -15,9 +15,21 @@
 			$_SESSION['email1'] = $_POST['email1'];
 			$_SESSION['motdepasse'] = $_POST['Motdepasse'];
 			$_SESSION['loginok'] = true;
-			header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Hub.php');
-		} else {
-			header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Accueil.php');
+
+			if ($_SERVER['SERVER_NAME']=="localhost"){
+                header('Location:http://localhost/IGHug/Hub.php');
+            }
+            else {
+                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Hub.php');
+            }
 		}
+		else {
+		    if ($_SERVER['SERVER_NAME']=="localhost"){
+			    header('Location:http://localhost/IGHug/Accueil.php');
+		    }
+		    else{
+                header('Location:http://'.$_SERVER['SERVER_NAME'].':8080/IGHug/Accueil.php');
+		    }
+        }
 	}
 ?>
