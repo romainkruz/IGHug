@@ -56,8 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div id="school_div" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+            <div id="school_div" class="text-center">
                 <img src="img/IPI.png" id="IPI">
                 <img src="img/ICD.png" id="ICD">
                 <img src="img/ISCPA.png" id="ISCPA">
@@ -66,15 +65,12 @@
                 <img src="img/IGS-Alternance.png" id="IGS-Alternance">
                 <img src="img/IGS-Formation continue.png" id="IGS-Formation-continue">
             </div>
-        </div>
         <div id="Members_by_school">
         </div>
         <hr>
-        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-            <p>
+            <p class="text-center">
                 IGHug © 2018
             </p>
-        </div>
         <div id="customPopup">
             <div id="customPopupcontent">
             </div>
