@@ -24,6 +24,5 @@
 
         <script src="node_modules/jquery/dist/jquery.js"></script>
         <script src="js/Menu.js"></script>
-        </div>
     </div>
 </div>
