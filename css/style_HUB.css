@@ -62,7 +62,7 @@ ul {
 .subMenu{
     position: absolute;
     right: 0px;
-    top: 0.5vw;
+    top: 0.45vw;
     padding: 10px;
     background: #364246;
     z-index: 1000;

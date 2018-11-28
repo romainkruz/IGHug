@@ -17,16 +17,19 @@
 		<title>Events</title>
 		<link rel="icon" href="img/Logo_IGHug.png" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style_Hub.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_HUB.css" />
 		<link rel="stylesheet" type="text/css" href="css/style_Events.css" />
 	</head>
 
+    <header>
+
+        <?php include("Header.php"); ?>
+
+    </header>
+
 	<body>
 		<div class="container-fluid" id="main_bloc">
-			<header>
-				<?php include("header.php"); ?>
-    		</header>
-    		
+
 			<div class="row" id="gauche_et_droite">
 				<div class="col-md-6" id="gauche">
 					<?php include("view/ListEvents.php"); ?>
