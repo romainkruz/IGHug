@@ -61,7 +61,7 @@
 						<div class="form-group">		
 							<input name="age" type="number" class="form-control" placeholder="Votre Age"maxlength="2">
 						</div>
-						<select name="sexe" class=form-control >
+						<select name="sexe" class=form-control>
 							<option disabled selected>Votre Sexe</option>
 							<option>Femme</option>
 							<option>Homme</option>
@@ -92,7 +92,7 @@
 				</div>
 				<div class="col-md-7">
 					<form>
-						<img alt="Image d'accueil" src="img/image_accueil1.jpg" class="img-fluid" alt="Responsive image" id="img_accueil">
+						<img src="img/image_accueil1.jpg" class="img-fluid" alt="Responsive image" id="img_accueil">
 					</form>
 				</div>	
 			</div>
@@ -134,7 +134,7 @@
 						 <li><a href="#" style="color: #364246">Portugais</a></li>
 						 <li><a href="#" style="color: #364246">Anglais</a></li>
 						 <li><a href="#" style="color: #364246">Italien</a></li>
-						 <li><a href="#"style="color: #364246">Chinois</a></li>
+						 <li><a href="#" style="color: #364246">Chinois</a></li>
 					</ul>
 					<p>
 						IGHug © 2018
