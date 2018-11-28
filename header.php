@@ -15,14 +15,14 @@
                 <li><a href="Events.php"><img src="img/champagne-xxl.png"/></a></li>
                 <li class="toggleSubMenu"><a><img src="img/contacts-xxl.png"/></a>
                     <ul class="subMenu">
-                        <li><a href="Modify.php" style="color: white" title="Modify">Modifier mon profil</a></li>
+                        <li><a href="Profil.php" style="color: white" title="Modify">Modifier mon profil</a></li>
                         <li><?php echo '<a style="color: white" href="view/Deconnexion.php?email1=' .  $_SESSION['email1'] . '" title="Deconnexion">Deconnexion</a>' ?></li>
                     </ul>
                 </li>
             </ul>
         </div>
-
-        <script src="node_modules/jquery/dist/jquery.js"></script>
-        <script src="js/Menu.js"></script>
     </div>
 </div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="script/Menu.js"></script>
