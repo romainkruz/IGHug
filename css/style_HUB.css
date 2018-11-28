@@ -241,7 +241,7 @@ ul {
     width: 50vw;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 
     body{
         margin-top: 29.5vw;
@@ -257,25 +257,12 @@ ul {
         top: -31.5vw;
     }
 
-
-    #IPI{
-        width: 15%;
-    }
-
-    #ICD{
-        width: 22.5%;
-    }
-
-    #ISCPA{
-        width: 18%;
-    }
-
     #ESAM{
         width: 18%;
     }
 
-    #IGS-RH{
-        width: 16.5%;
+    #ICD{
+        width: 22.5%;
     }
 
     #IGS-Alternance{
@@ -284,6 +271,18 @@ ul {
 
     #IGS-Formation-continue{
         width: 19.5%;
+    }
+
+    #IGS-RH{
+        width: 16.5%;
+    }
+
+    #IPI{
+        width: 15%;
+    }
+
+    #ISCPA{
+        width: 18%;
     }
 
     #logo_header {
@@ -295,6 +294,11 @@ ul {
         height: 350px;
     }
 
+    #Members_image {
+        width: 15vw;
+        height: 15vw;
+    }
+
     #Titre{
         display: inline-block;
         width: 80vw;
@@ -302,21 +306,21 @@ ul {
 
 }
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 768px) and (max-width: 992px){
 
     body{
     }
 
 }
 
-@media (min-width: 993px) and (max-width: 1200px){
+@media (min-width: 992px) and (max-width: 1200px){
 
     body{
     }
 
 }
 
-@media (min-width: 1201px){
+@media (min-width: 1200px){
 
     body{
     }
