@@ -16,6 +16,25 @@
         <link rel="icon" href="img/Logo_IGHug.png" />
     </head>
 
+<<<<<<< HEAD
+        echo("<script>console.log('PHP: ".$host."');</script>");
+        ?>
+
+			<div class="row">
+				<div class="col-md-5">
+					<form method="post" action="view/Inscription.php">
+						<div class="form-group"> 
+							<input name="nom" type="nom" class="form-control" placeholder="Votre Nom" maxlength="20">
+						</div>
+						<div class="form-group">
+							<input name="prenom" type="prenom" class="form-control" placeholder="Votre Prénom" maxlength="20">
+						</div>
+						<div class="form-group">		
+							<input name="age" type="number" class="form-control" placeholder="Votre Age"maxlength="2">
+						</div>
+						<select name="sexe" class=form-control>
+							<option disabled selected>Votre Sexe</option>
+=======
     <body>
         <div class="container-fluid">
             <div class="row" id="color_head">
@@ -63,6 +82,7 @@
                         </div>
                         <select name="sexe" class=form-control >
                             <option disabled selected>Votre Sexe</option>
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
 							<option>Femme</option>
 							<option>Homme</option>
 						</select>
@@ -76,6 +96,77 @@
 							<option>IGS-Formation continue</option>
 							<option>IGS-Alternance</option>
 							<option>ESAM</option>
+<<<<<<< HEAD
+						</select>
+						<br>
+						<div class="form-group">
+							<input name="email" type="email" class="form-control" placeholder="Votre Email" maxlength="40">
+						</div>		
+						<div class="form-group"> 
+							<input name="login" type="password" class="form-control" placeholder="Votre mot de passe" 
+							maxlength="20">
+						</div>
+						<div class="Submit2">
+								<input type="submit" class="but2" value="S'inscrire">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-7">
+					<form>
+						<img src="img/image_accueil1.jpg" class="img-fluid" alt="Responsive image" id="img_accueil">
+					</form>
+				</div>	
+			</div>
+<br>
+<br>
+				<div class="row" id="quote">
+					<form class="form-inline">
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p>
+									"Grace à Ighug, j'ai pu allier ma passion du dév et de la drague"
+								</p>
+								<cite>- André Rémuzon, IPI</cite>
+							</blockquote>
+						</div>
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p>
+									"N'ayant pas eu de relation longue depuis un moment, j'ai trouvé l'homme que je cherchais facilement"
+								</p>
+								<cite>- Romain Krumescouilles, IPI</cite>
+							</blockquote>
+						</div>
+						<div class="col-md-4">
+							<blockquote class="blockquote">
+								<p>
+									"Comme de nombreuses personnes j'étais un peu réticent, mais le site m'a vite démontré toute son utilité sur le campus"
+								</p>
+								<cite>- Alexis Chatain, IPI</cite>
+							</blockquote>
+						</div>
+					</form>
+				</div>
+				<hr>
+				<div class="col-md-12" id=langue>					                         
+					<ul>
+						 <li><a href="#" style="color: #364246">Francais</a></li>
+						 <li><a href="#" style="color: #364246">Espagnol</a></li>
+						 <li><a href="#" style="color: #364246">Portugais</a></li>
+						 <li><a href="#" style="color: #364246">Anglais</a></li>
+						 <li><a href="#" style="color: #364246">Italien</a></li>
+						 <li><a href="#" style="color: #364246">Chinois</a></li>
+					</ul>
+					<p>
+						IGHug © 2018
+					</p>
+				</div>
+        
+		        <div id="PopupForget">
+		            <div id="PopupForgetcontent">
+		            </div>
+		        </div>
+=======
                         </select>
                         <br>
                         <div class="form-group">
@@ -143,6 +234,7 @@
                 <div id="PopupForgetcontent">
                 </div>
             </div>
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/popper.js"></script>

@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e3bf97b9-fd49-4abb-a40f-e05fcfb2e7d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/css/style_HUB.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_HUB.css" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Profil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/HUB.php" beforeDir="false" afterPath="$PROJECT_DIR$/HUB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_HUB.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_HUB.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Logo_IGHug_Nude-320x260.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Logo_IGHug_Nude-320x260.png" afterDir="false" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +23,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+=======
   <component name="FUSProjectUsageTrigger">
     <session id="712433870">
       <usages-collector id="statistics.lifecycle.project">
@@ -204,6 +241,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -252,7 +290,12 @@
         <option value="$PROJECT_DIR$/view/OneMember.php" />
         <option value="$PROJECT_DIR$/js/Menu.js" />
         <option value="$PROJECT_DIR$/script/Hub.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/HUB.php" />
+        <option value="$PROJECT_DIR$/css/style_HUB.css" />
+=======
         <option value="$PROJECT_DIR$/Accueil.php" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
         <option value="$PROJECT_DIR$/view/Connexion.php" />
         <option value="$PROJECT_DIR$/view/Deconnexion.php" />
         <option value="$PROJECT_DIR$/view/Inscription.php" />
@@ -260,31 +303,43 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/HUB.php" />
         <option value="$PROJECT_DIR$/HUB.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Accueil.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/css/style_Profil.css" />
+        <option value="$PROJECT_DIR$/Profil.php" />
+        <option value="$PROJECT_DIR$/view/Modifier.php" />
+=======
         <option value="$PROJECT_DIR$/css/style_HUB.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/style_Events.css" />
+=======
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
-      <path value="$PROJECT_DIR$/node_modules/popper.js/package.json" />
-    </packageJsonPaths>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="381" />
+    <option name="width" value="993" />
+    <option name="height" value="735" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
     <option name="x" value="-8" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -307,6 +362,11 @@
             <path>
               <item name="IGHug" type="b2602c69:ProjectViewProjectNode" />
               <item name="IGHug" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IGHug" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IGHug" type="462c0819:PsiDirectoryNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,6 +383,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+=======
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -376,8 +440,18 @@
       <workItem from="1543003104134" duration="433000" />
       <workItem from="1543003698093" duration="726000" />
       <workItem from="1543077065940" duration="3338000" />
+<<<<<<< HEAD
+      <workItem from="1543223784881" duration="1756000" />
+      <workItem from="1543228033778" duration="2911000" />
+      <workItem from="1543409879285" duration="10679000" />
+=======
       <workItem from="1543404741324" duration="4797000" />
+<<<<<<< HEAD
       <workItem from="1543415383659" duration="5918000" />
+=======
+      <workItem from="1543415383659" duration="4273000" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
     </task>
     <task id="LOCAL-00001" summary="HUB V1">
       <created>1540301295424</created>
@@ -411,13 +485,26 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="178532000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="182839000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32955465" />
+=======
+    <option name="totallyTimeSpent" value="176887000" />
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -431,19 +518,38 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32907802" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32955465" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19271255" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3285968" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HUB V1" />
@@ -474,6 +580,9 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9560.2604/stylesheet.css" />
     <entry file="file://$PROJECT_DIR$/ListEvents.php" />
     <entry file="file://$PROJECT_DIR$/css/style.css" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/../IGHug - Copie/Hub.php" />
+=======
     <entry file="file://$PROJECT_DIR$/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -482,6 +591,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../IGHug - Copie/HUB.php" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
     <entry file="file://$PROJECT_DIR$/view/Identification.php" />
     <entry file="file://$PROJECT_DIR$/view/ListMembers_IPI.php" />
     <entry file="file://$PROJECT_DIR$/view/ListMembers_ICD.php" />
@@ -494,6 +604,29 @@
     <entry file="file://$PROJECT_DIR$/Hub - Copie.php" />
     <entry file="file://$PROJECT_DIR$/script/Popup.js" />
     <entry file="file://$PROJECT_DIR$/css/style_Menu.css" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/js/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_HUB.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Events.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Hub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+=======
     <entry file="file://$PROJECT_DIR$/script/Accueil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -505,6 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
         </state>
       </provider>
     </entry>
@@ -539,7 +673,7 @@
     <entry file="file://$PROJECT_DIR$/view/ListMembers_BySchool.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -560,8 +694,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Accueil.php">
+    <entry file="file://$PROJECT_DIR$/Events.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="102">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HUB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
         <state relative-caret-position="170">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
@@ -602,11 +747,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+=======
+        <state relative-caret-position="493">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Accueil.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Accueil.php">
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_Accueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="197" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style_Profil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+=======
         <state relative-caret-position="136">
           <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
@@ -630,6 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="59" selection-start-line="59" selection-end-line="65" selection-end-column="86" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
         </state>
       </provider>
     </entry>
@@ -649,8 +857,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style_HUB.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="136">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/Modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+=======
+        <state relative-caret-position="247">
+          <caret line="262" column="5" lean-forward="true" selection-start-line="262" selection-start-column="5" selection-end-line="262" selection-end-column="5" />
+>>>>>>> 360026b9d12a92c33b6386f73f4c9242b28d0eca
+>>>>>>> bb54f355930df239a70fc58fa273b01620227909
         </state>
       </provider>
     </entry>
