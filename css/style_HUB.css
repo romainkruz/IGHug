@@ -3,7 +3,8 @@ aside {
 }
 
 body{
-    background-color: #FFE4E1
+    background-color: #FFE4E1;
+    margin-top: 7.05vw;
 }
 
 figcaption{
@@ -30,6 +31,10 @@ header {
     background-color: #364246;
     color: white;
     line-height: 6vw;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 li {
@@ -60,16 +65,18 @@ ul {
 }
 
 .subMenu{
+    display: none;
     position: absolute;
     right: 0px;
-    top: 0.5vw;
+    top: 0.45vw;
     padding: 10px;
     background: #364246;
     z-index: 1000;
     margin-top: 40%;
     border-radius: 2px;
-    line-height: 40px;
-    width: 67%;
+    line-height: 30px;
+    width: auto;
+    font-size: 0.8em;
 }
 
 .zoom img {
@@ -236,13 +243,52 @@ ul {
 
 @media (max-width: 768px){
 
+    body{
+        margin-top: 27.3vw;
+    }
+
     .icone_header img{
         width: 4vw;
         margin-left: 14.5vw;
     }
 
+    .subMenu{
+        right: 10vw;
+        top: -31.5vw;
+    }
+
+
+    #IPI{
+        width: 15%;
+    }
+
+    #ICD{
+        width: 22.5%;
+    }
+
+    #ISCPA{
+        width: 18%;
+    }
+
+    #ESAM{
+        width: 18%;
+    }
+
+    #IGS-RH{
+        width: 16.5%;
+    }
+
+    #IGS-Alternance{
+        width: 19.5%;
+    }
+
+    #IGS-Formation-continue{
+        width: 19.5%;
+    }
+
     #logo_header {
-        width: 20vw;
+        width: 15vw;
+        margin-left: -10px;
     }
 
     #maps_div{

@@ -21,9 +21,8 @@
                 </li>
             </ul>
         </div>
-
-        <script src="node_modules/jquery/dist/jquery.js"></script>
-        <script src="js/Menu.js"></script>
-        </div>
     </div>
 </div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="script/Menu.js"></script>
