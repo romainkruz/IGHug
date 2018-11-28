@@ -23,9 +23,9 @@
         <meta name="description" content="Réseau social pour IGS">
         <meta name="author" content="QAR">
 
+        <link href="img/Logo_IGHug.png" rel="icon">
         <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
         <link href="css/style_HUB.css" rel="stylesheet">
-        <link rel="icon" href="img/Logo_IGHug.png" />
     </head>
 
     <header>
