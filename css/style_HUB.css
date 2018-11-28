@@ -68,8 +68,9 @@ ul {
     z-index: 1000;
     margin-top: 40%;
     border-radius: 2px;
-    line-height: 40px;
-    width: 67%;
+    line-height: 30px;
+    width: auto;
+    font-size: 0.8em;
 }
 
 .zoom img {
@@ -239,6 +240,18 @@ ul {
     .icone_header img{
         width: 4vw;
         margin-left: 14.5vw;
+    }
+
+    .subMenu{
+        position: absolute;
+        right: 10vw;
+        top: -31.5vw;
+        padding: 10px;
+        background: #364246;
+        z-index: 1000;
+        border-radius: 2px;
+        line-height: 30px;
+        width: auto;
     }
 
     #logo_header {
