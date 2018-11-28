@@ -60,6 +60,7 @@ ul {
 }
 
 .subMenu{
+    display: none;
     position: absolute;
     right: 0px;
     top: 0.45vw;
@@ -243,15 +244,9 @@ ul {
     }
 
     .subMenu{
-        position: absolute;
+
         right: 10vw;
         top: -31.5vw;
-        padding: 10px;
-        background: #364246;
-        z-index: 1000;
-        border-radius: 2px;
-        line-height: 30px;
-        width: auto;
     }
 
     #logo_header {
