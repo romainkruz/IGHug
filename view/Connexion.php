@@ -6,10 +6,23 @@
         $email1 = $_POST['email1'];
         $Motdepasse = $_POST['Motdepasse'];
 
+<<<<<<< HEAD
 // On hash le password
 
         $Motdepasse = sha1($Motdepasse);
         $hash = $Motdepasse;
+=======
+	    $connexion = $bdd->query("SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'");
+	    $obj = $connexion->fetch();
+
+		if ($connexion->rowCount() == 1) {
+			$bdd->query("UPDATE members SET Online = '1' WHERE Email = '$email1';");
+			session_start();
+			$_SESSION['email1'] = $_POST['email1'];
+			$_SESSION['motdepasse'] = $_POST['Motdepasse'];
+			$_SESSION['loginok'] = true;
+			$_SESSION['id'] = $obj['ID'];
+>>>>>>> d889236da90d5fa7a911f0d211f7f94737f003aa
 
 // On se connecte à la base
 
