@@ -14,9 +14,13 @@
 
         $bdd->query("INSERT INTO members (Name, Surname, Age, Sex, School, Online, Email, Login, Description) VALUES ('$prenom', '$nom', '$age', '$sexe', '$ecole', '1', '$email', '$login', ' ');");
 
+        $inscription = $bdd->query("SELECT * FROM members WHERE Email = '$email' AND Login = '$login'");
+        $obj = $inscription->fetch();
+
         session_start();
         $_SESSION['email1'] = $email;
         $_SESSION['loginok'] = true;
+        $_SESSION['id'] = $obj['ID'];
 
         if ($_SERVER['SERVER_NAME']=="localhost"){
             header('Location:http://localhost/IGHug/Hub.php');

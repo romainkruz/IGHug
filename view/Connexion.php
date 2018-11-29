@@ -8,6 +8,7 @@
         catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
 	    $connexion = $bdd->query("SELECT * FROM members WHERE Email = '$email1' AND Login = '$Motdepasse'");
+	    $obj = $connexion->fetch();
 
 		if ($connexion->rowCount() == 1) {
 			$bdd->query("UPDATE members SET Online = '1' WHERE Email = '$email1';");
@@ -15,6 +16,7 @@
 			$_SESSION['email1'] = $_POST['email1'];
 			$_SESSION['motdepasse'] = $_POST['Motdepasse'];
 			$_SESSION['loginok'] = true;
+			$_SESSION['id'] = $obj['ID'];
 
 			if ($_SERVER['SERVER_NAME']=="localhost"){
                 header('Location:http://localhost/IGHug/Hub.php');
