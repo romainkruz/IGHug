@@ -9,7 +9,7 @@ var Participation = {
 		 			context: participations[i],
 		 			type: "POST",
 		 			url: "view/Participation.php",
-		 			data: "cle=" + encodeURIComponent($(participations[i]).attr('title')),
+		 			data: "cle=" + $(participations[i]).attr('title'),
 		 			success: function(data) {
 		 				var votes = data;
 						if (votes > 0) {
@@ -22,14 +22,15 @@ var Participation = {
 		 	}
 	},
 	click: function(e) {
-		var element = e.currentTarget;
-		$(element).unbind('click');
-		$(element).click(function() { return false; });
+		// Pour ne cliquer qu'une seule fois
+		$(this).unbind('click');
+		$(this).click(function() { return false; });
+		
 		$.ajax({
-			context: element,
+			context: this,
 			type: "POST",
 			url: "view/Participation.php",
-			data: "vote=&cle=" + encodeURIComponent($(element).attr('title')),
+			data: "vote=&cle=" + $(this).attr('title'),
 			success: function(data){
 				$(this).css({'opacity':0});
 				$(this).addClass('participe');
@@ -52,6 +53,9 @@ var Participation = {
 };
 
 $(document).ready(function(){
-	Participation.evenements();
 	Participation.precharger();
+	Participation.evenements();
+	$('a').on('mouseup', function(){
+		$(this).blur();
+	});
 });

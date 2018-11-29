@@ -31,11 +31,11 @@
 		<div class="container-fluid" id="main_bloc">
 
 			<div class="row" id="gauche_et_droite">
-				<div class="col-md-6" id="gauche">
+				<div class="col-lg-6 col-md-12" id="gauche">
 					<?php include("view/ListEvents.php"); ?>
 				</div>
 
-				<div class="col-md-6" id="droite">
+				<div class="col-lg-6 col-md-12" id="droite">
 					<div class="row" id="titre_quart">
 						<div class="col-md-12">
 							<h1>THE PLACE TO BE</h1>

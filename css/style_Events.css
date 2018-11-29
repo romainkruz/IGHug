@@ -89,3 +89,20 @@ h3
 {
 	font-style: italic;
 }
+
+.participe:visited
+{
+	color: black;
+	border: 0px;
+}
+
+.participe:hover
+{
+	text-decoration: none;
+	cursor: default;
+}
+
+.participe:link
+{
+	text-decoration: none;
+}
