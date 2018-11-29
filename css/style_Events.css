@@ -47,6 +47,10 @@
 	border-radius: 15px;
 }
 
+body{
+	background-color: #364246;
+}
+
 span
 {
 	font-family: 'lobster_1.4regular';

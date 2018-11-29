@@ -39,12 +39,7 @@
 				<div class="col-lg-6 col-md-12" id="gauche">
 					<?php include("view/ListEvents.php"); ?>
 				</div>
-<<<<<<< HEAD
-
 				<div class="col-lg-6 col-md-12" id="droite">
-=======
-				<div class="col-md-6" id="droite">
->>>>>>> 78eb6010de010a5ca245e5eb5a585caa6ae928c5
 					<div class="row" id="titre_quart">
 						<div class="col-md-12">
 							<h1>THE PLACE TO BE</h1>
