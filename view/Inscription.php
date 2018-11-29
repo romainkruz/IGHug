@@ -27,20 +27,14 @@
         $inscription = $bdd->query("SELECT * FROM members WHERE Email = '$email' AND Login = '$login'");
         $obj = $inscription->fetch();
 
-<<<<<<< HEAD
 // On initie la session lors de l'inscription
 
-=======
->>>>>>> d889236da90d5fa7a911f0d211f7f94737f003aa
         session_start();
         $_SESSION['email1'] = $email;
         $_SESSION['loginok'] = true;
         $_SESSION['id'] = $obj['ID'];
-<<<<<<< HEAD
 
 // On redirige l'utilisateur suivant les informations qu'il fournit
-=======
->>>>>>> d889236da90d5fa7a911f0d211f7f94737f003aa
 
         if ($_SERVER['SERVER_NAME']=="localhost"){
             header('Location:http://localhost/IGHug/Hub.php');
