@@ -6,7 +6,8 @@ try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO
 catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
 $reponse = $bdd->query("SELECT * FROM members WHERE id='$ID'");
-$donnees = $reponse->fetch()
+$donnees = $reponse->fetch();
+
 ?>
 
     <form method="post" onsubmit="return false">
