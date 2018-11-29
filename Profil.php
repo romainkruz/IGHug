@@ -24,16 +24,16 @@
                             <textarea name="description" type="text" placeholder="Votre description" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
-                            <input name="nom" type="nom" class="form-control" placeholder="Modifier votre Nom" maxlength="20">
+                            <input name="nvnom" type="nom" class="form-control" placeholder="Modifier votre Nom" maxlength="20">
                         </div>
                         <div class="form-group">
-                            <input name="prenom" type="prenom" class="form-control" placeholder="Modifier votre Prénom" maxlength="20">
+                            <input name="nvprenom" type="prenom" class="form-control" placeholder="Modifier votre Prénom" maxlength="20">
                         </div>
                         <div class="form-group">
-                            <input name="email" type="email" class="form-control" placeholder="Modifier votre Email" maxlength="40">
+                            <input name="nvemail" type="email" class="form-control" placeholder="Modifier votre Email" maxlength="40">
                         </div>
                         <div class="form-group">
-                            <input name="login" type="password" class="form-control" placeholder="Modifier votre mot de passe"
+                            <input name="nvlogin" type="password" class="form-control" placeholder="Modifier votre mot de passe"
                                    maxlength="20">
                         </div>
                         <div class="Submit2">
