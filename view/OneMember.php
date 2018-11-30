@@ -1,10 +1,13 @@
 <?php
 
+    // Récupération de l'ID par l'URL
     $ID = $_GET['id'];
 
+    // Connexion à la BDD
     try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', 'KQS9yx6niikArAf4',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
     catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
+    // Requête sur la BDD avec l'ID cliqué
     $reponse = $bdd->query('SELECT * FROM members WHERE id='.$ID);
     $donnees = $reponse->fetch()
 ?>
