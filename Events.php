@@ -1,5 +1,6 @@
 <?php
     session_start();
+    // Redirection vers la page d'accueil si l'utilisateur n'a pas de session active
     if ($_SESSION['loginok'] == false) {
         if ($_SERVER['SERVER_NAME']=="localhost"){
             header('Location:http://localhost/IGHug/Accueil.php');
