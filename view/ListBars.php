@@ -2,7 +2,8 @@
 
 	function redimensionnerimg($img_Src, $W_max, $H_max) {
 
-		if (file_exists($img_Src)) {	// vérifie que l'image source existe
+		// vérifie que l'image source existe
+		if (file_exists($img_Src)) {
 
 			$img_size = getimagesize($img_Src);	// obtient les dimensions de l'image source
 			$W_Src = $img_size[0];	// largeur source
