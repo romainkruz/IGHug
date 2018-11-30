@@ -1,6 +1,6 @@
 <?php
 
-    try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', '',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
+    try {$bdd = new PDO('mysql:host=localhost;dbname=ighug_db', 'root', 'KQS9yx6niikArAf4',array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));}
     catch (Exception $e) {die('Erreur : ' . $e->getMessage());}
 
     $reponse = $bdd->query('SELECT * FROM members');
