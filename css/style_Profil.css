@@ -3,20 +3,22 @@
     padding-top: 1%;
     width: 90%;
     margin-left: 5%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 h6 {
     color : #364246;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "lobster_1.4regular";
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
 }
 
 .form-group {
-    margin-top: 2%;
+    margin-top: 6%;
+    font-family: "lobster_1.4regular";
+    font-size: 15px;
 }
 
 .but2 {
@@ -25,4 +27,24 @@ h6 {
     background-color: #364246;
     width: 175px;
     margin-left: 30%;
+}
+
+#nvnom {
+    width: 70%;
+}
+
+#nvprenom {
+    width: 65%;
+}
+
+#nvemail {
+    width: 68%;
+}
+
+#nvlogin {
+    width: 62%;
+}
+
+#nvdescription{
+    width: 62%;
 }
